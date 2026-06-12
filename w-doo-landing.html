@@ -557,33 +557,65 @@
               class="w-6 h-6 rounded-full bg-brand text-white text-[12px] font-bold flex items-center justify-center shrink-0">8</span>
             <h2 class="text-[14.5px] font-bold text-ink">Häufige Fragen</h2>
           </div>
-          <div class="grid grid-cols-4 gap-3">
-            <button
-              class="faq-q bg-gray-50 border border-gray-200 rounded-xl px-4 py-4 flex items-start justify-between gap-3 text-left text-[11.5px] font-semibold text-ink hover:bg-gray-100 transition-colors">
-              Warum ist 99 € / Monat so günstig?
-              <i data-lucide="plus" class="w-4 h-4 text-gray-400 shrink-0 mt-0.5"></i>
-            </button>
-            <button
-              class="faq-q bg-gray-50 border border-gray-200 rounded-xl px-4 py-4 flex items-start justify-between gap-3 text-left text-[11.5px] font-semibold text-ink hover:bg-gray-100 transition-colors">
-              Ist das wirklich unverbindlich?
-              <i data-lucide="plus" class="w-4 h-4 text-gray-400 shrink-0 mt-0.5"></i>
-            </button>
-            <button
-              class="faq-q bg-gray-50 border border-gray-200 rounded-xl px-4 py-4 flex items-start justify-between gap-3 text-left text-[11.5px] font-semibold text-ink hover:bg-gray-100 transition-colors">
-              Was ist alles im Preis enthalten?
-              <i data-lucide="plus" class="w-4 h-4 text-gray-400 shrink-0 mt-0.5"></i>
-            </button>
+          <div class="grid grid-cols-4 gap-3 items-start">
+            <div class="faq-item bg-gray-50 border border-gray-200 rounded-xl overflow-hidden">
+              <button
+                class="faq-q w-full px-4 py-4 flex items-start justify-between gap-3 text-left text-[11.5px] font-semibold text-ink hover:bg-gray-100 transition-colors">
+                Warum ist 99 € / Monat so günstig?
+                <i data-lucide="plus" class="faq-icon w-4 h-4 text-gray-400 shrink-0 mt-0.5 transition-transform duration-300"></i>
+              </button>
+              <div class="faq-a max-h-0 overflow-hidden transition-all duration-300">
+                <p class="px-4 pb-4 text-[11px] text-gray-600 leading-snug">Durch standardisierte Abläufe und bewährte
+                  Design-Vorlagen arbeiten wir effizient – ohne Abstriche bei der Qualität. Statt eines hohen
+                  Einmalpreises zahlen Sie einen fairen Monatsbetrag.</p>
+              </div>
+            </div>
+            <div class="faq-item bg-gray-50 border border-gray-200 rounded-xl overflow-hidden">
+              <button
+                class="faq-q w-full px-4 py-4 flex items-start justify-between gap-3 text-left text-[11.5px] font-semibold text-ink hover:bg-gray-100 transition-colors">
+                Ist das wirklich unverbindlich?
+                <i data-lucide="plus" class="faq-icon w-4 h-4 text-gray-400 shrink-0 mt-0.5 transition-transform duration-300"></i>
+              </button>
+              <div class="faq-a max-h-0 overflow-hidden transition-all duration-300">
+                <p class="px-4 pb-4 text-[11px] text-gray-600 leading-snug">Ja. Sie erhalten zuerst 2 kostenlose
+                  Designvorschläge. Erst wenn Ihnen ein Entwurf gefällt, beauftragen Sie uns – es entsteht kein
+                  automatischer Auftrag.</p>
+              </div>
+            </div>
+            <div class="faq-item bg-gray-50 border border-gray-200 rounded-xl overflow-hidden">
+              <button
+                class="faq-q w-full px-4 py-4 flex items-start justify-between gap-3 text-left text-[11.5px] font-semibold text-ink hover:bg-gray-100 transition-colors">
+                Was ist alles im Preis enthalten?
+                <i data-lucide="plus" class="faq-icon w-4 h-4 text-gray-400 shrink-0 mt-0.5 transition-transform duration-300"></i>
+              </button>
+              <div class="faq-a max-h-0 overflow-hidden transition-all duration-300">
+                <p class="px-4 pb-4 text-[11px] text-gray-600 leading-snug">Design, Umsetzung, Hosting, SSL, Domain,
+                  laufende Pflege, kleine Änderungen und persönlicher Support – alles im Festpreis enthalten.</p>
+              </div>
+            </div>
             <div class="space-y-3">
-              <button
-                class="faq-q w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-4 flex items-start justify-between gap-3 text-left text-[11.5px] font-semibold text-ink hover:bg-gray-100 transition-colors">
-                Wie schnell ist meine Website live?
-                <i data-lucide="plus" class="w-4 h-4 text-gray-400 shrink-0 mt-0.5"></i>
-              </button>
-              <button
-                class="faq-q w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-4 flex items-start justify-between gap-3 text-left text-[11.5px] font-semibold text-ink hover:bg-gray-100 transition-colors">
-                Kann ich meine bestehende Domain behalten?
-                <i data-lucide="plus" class="w-4 h-4 text-gray-400 shrink-0 mt-0.5"></i>
-              </button>
+              <div class="faq-item bg-gray-50 border border-gray-200 rounded-xl overflow-hidden">
+                <button
+                  class="faq-q w-full px-4 py-4 flex items-start justify-between gap-3 text-left text-[11.5px] font-semibold text-ink hover:bg-gray-100 transition-colors">
+                  Wie schnell ist meine Website live?
+                  <i data-lucide="plus" class="faq-icon w-4 h-4 text-gray-400 shrink-0 mt-0.5 transition-transform duration-300"></i>
+                </button>
+                <div class="faq-a max-h-0 overflow-hidden transition-all duration-300">
+                  <p class="px-4 pb-4 text-[11px] text-gray-600 leading-snug">In der Regel ist Ihre Website innerhalb
+                    von 7–14 Tagen nach Freigabe des Designs online.</p>
+                </div>
+              </div>
+              <div class="faq-item bg-gray-50 border border-gray-200 rounded-xl overflow-hidden">
+                <button
+                  class="faq-q w-full px-4 py-4 flex items-start justify-between gap-3 text-left text-[11.5px] font-semibold text-ink hover:bg-gray-100 transition-colors">
+                  Kann ich meine bestehende Domain behalten?
+                  <i data-lucide="plus" class="faq-icon w-4 h-4 text-gray-400 shrink-0 mt-0.5 transition-transform duration-300"></i>
+                </button>
+                <div class="faq-a max-h-0 overflow-hidden transition-all duration-300">
+                  <p class="px-4 pb-4 text-[11px] text-gray-600 leading-snug">Ja, Ihre bestehende Domain übernehmen wir
+                    problemlos. Wir kümmern uns um den kompletten Umzug.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -647,6 +679,22 @@
 
   <script>
     lucide.createIcons();
+
+    document.querySelectorAll('.faq-q').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var item = btn.closest('.faq-item');
+        var answer = item.querySelector('.faq-a');
+        var icon = btn.querySelector('.faq-icon');
+        var isOpen = answer.style.maxHeight && answer.style.maxHeight !== '0px';
+        if (isOpen) {
+          answer.style.maxHeight = '0px';
+          icon.style.transform = '';
+        } else {
+          answer.style.maxHeight = answer.scrollHeight + 'px';
+          icon.style.transform = 'rotate(45deg)';
+        }
+      });
+    });
   </script>
 </body>
 
