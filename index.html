@@ -43,6 +43,252 @@
     .step-blob {
       border-radius: 50%;
     }
+
+    .service-card {
+      min-height: 132px;
+      border: 1px solid #E5E7EB;
+      border-radius: 8px;
+      background: #fff;
+      padding: 16px 12px 14px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+    .service-icon {
+      width: 42px;
+      height: 42px;
+      color: #111827;
+      stroke-width: 1.8;
+      margin-bottom: 10px;
+    }
+
+    .compare-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      table-layout: fixed;
+      font-size: 10.5px;
+      line-height: 1.25;
+    }
+
+    .compare-table th,
+    .compare-table td {
+      border-right: 1px solid #E5E7EB;
+      border-bottom: 1px solid #E5E7EB;
+      padding: 9px 8px;
+      vertical-align: middle;
+    }
+
+    .compare-table th {
+      background: #FAFAFA;
+      color: #111827;
+      font-weight: 800;
+      text-align: center;
+    }
+
+    .compare-table th:first-child,
+    .compare-table td:first-child {
+      border-left: 1px solid #E5E7EB;
+      text-align: left;
+      font-weight: 800;
+      color: #111827;
+      width: 25%;
+    }
+
+    .compare-table thead th {
+      border-top: 1px solid #E5E7EB;
+    }
+
+    .compare-table thead th:first-child {
+      border-top-left-radius: 8px;
+    }
+
+    .compare-table thead th:last-child {
+      border-top-right-radius: 8px;
+    }
+
+    .compare-table tbody tr:last-child td:first-child {
+      border-bottom-left-radius: 8px;
+    }
+
+    .compare-table tbody tr:last-child td:last-child {
+      border-bottom-right-radius: 8px;
+    }
+
+    .compare-table .wdoo-col {
+      background: #FFF7ED;
+      border-left: 1px solid #FDBA74;
+      border-right: 1px solid #FDBA74;
+      color: #111827;
+      font-weight: 800;
+    }
+
+    .compare-table thead .wdoo-col {
+      color: #FF6A00;
+      border-top: 1px solid #FDBA74;
+    }
+
+    .mini-feature {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      font-size: 12.5px;
+      line-height: 1.35;
+      color: #374151;
+    }
+
+    .css-stamp {
+      width: 178px;
+      height: 178px;
+      border: 5px solid #FF6A00;
+      border-radius: 999px;
+      color: #FF6A00;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-weight: 900;
+      font-size: 22px;
+      line-height: 1.03;
+      letter-spacing: .03em;
+      transform: rotate(-9deg);
+      position: relative;
+    }
+
+    .css-stamp:before,
+    .css-stamp:after {
+      content: "";
+      position: absolute;
+      inset: 10px;
+      border: 2px solid #FF6A00;
+      border-radius: 999px;
+    }
+
+    .css-stamp:after {
+      content: "***";
+      inset: auto;
+      bottom: 22px;
+      border: 0;
+      font-size: 18px;
+      letter-spacing: .18em;
+    }
+
+    .process-row {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 18px;
+      align-items: start;
+      position: relative;
+    }
+
+    .process-step {
+      text-align: center;
+      position: relative;
+    }
+
+    .process-icon {
+      width: 74px;
+      height: 56px;
+      margin: 0 auto 10px;
+      border-radius: 999px;
+      background: #FFF7ED;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #FF6A00;
+    }
+
+    .process-arrow {
+      position: absolute;
+      right: -17px;
+      top: 20px;
+      color: #111827;
+    }
+
+    .reference-card {
+      border: 1px solid #E5E7EB;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #fff;
+      min-height: 174px;
+      display: block;
+      transition: box-shadow .2s ease, transform .2s ease;
+    }
+
+    .reference-card:hover {
+      box-shadow: 0 8px 22px rgba(15, 23, 42, .08);
+      transform: translateY(-1px);
+    }
+
+    .reference-card img {
+      width: 100%;
+      height: 102px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .testimonial-card {
+      min-width: 0;
+      border-left: 1px solid #F1F5F9;
+      padding-left: 14px;
+    }
+
+    .testimonial-card:first-child {
+      border-left: 0;
+      padding-left: 0;
+    }
+
+    .avatar {
+      width: 48px;
+      height: 48px;
+      border-radius: 999px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #F3F4F6, #E5E7EB);
+      color: #111827;
+      font-size: 13px;
+      font-weight: 900;
+      border: 2px solid #fff;
+      box-shadow: 0 4px 12px rgba(15, 23, 42, .12);
+    }
+
+    .faq-compact {
+      border: 1px solid #E5E7EB;
+      border-radius: 8px;
+      background: #FAFAFA;
+      overflow: hidden;
+    }
+
+    @media (max-width: 1023px) {
+      .process-row {
+        grid-template-columns: 1fr;
+      }
+
+      .process-step {
+        display: grid;
+        grid-template-columns: 74px 1fr;
+        gap: 12px;
+        text-align: left;
+        align-items: center;
+      }
+
+      .process-icon {
+        margin: 0;
+      }
+
+      .process-arrow {
+        display: none;
+      }
+
+      .testimonial-card {
+        border-left: 0;
+        padding-left: 0;
+      }
+    }
   </style>
 </head>
 
@@ -166,43 +412,43 @@
         </div>
         <div class="acc-body max-lg:hidden max-lg:px-4 max-lg:pb-4">
         <div class="grid grid-cols-2 md:grid-cols-4 gap-2.5">
-          <div class="border border-gray-200 rounded-xl p-3 text-center flex flex-col items-center">
-            <img src="02_brand/icons/svg/palette.svg" alt="" class="w-[44px] h-[44px] mb-2 brightness-0">
+          <div class="service-card">
+            <i data-lucide="palette" class="service-icon"></i>
             <p class="text-[12px] font-bold leading-tight">Individuelles Webdesign</p>
             <p class="mt-1.5 text-[10.5px] text-gray-500 leading-snug">Keine 08/15-Baukastenlösung</p>
           </div>
-          <div class="border border-gray-200 rounded-xl p-3 text-center flex flex-col items-center">
-            <img src="02_brand/icons/svg/layout.svg" alt="" class="w-[44px] h-[44px] mb-2 brightness-0">
+          <div class="service-card">
+            <i data-lucide="layout-template" class="service-icon"></i>
             <p class="text-[12px] font-bold leading-tight">2 kostenlose Designvorschläge</p>
             <p class="mt-1.5 text-[10.5px] text-gray-500 leading-snug">Erst ansehen, dann entscheiden</p>
           </div>
-          <div class="border border-gray-200 rounded-xl p-3 text-center flex flex-col items-center">
-            <img src="02_brand/icons/svg/copy.svg" alt="" class="w-[44px] h-[44px] mb-2 brightness-0">
+          <div class="service-card">
+            <i data-lucide="file-pen-line" class="service-icon"></i>
             <p class="text-[12px] font-bold leading-tight">Texte &amp; Bilder inklusive</p>
             <p class="mt-1.5 text-[10.5px] text-gray-500 leading-snug">Wir erstellen überzeugende Inhalte</p>
           </div>
-          <div class="border border-gray-200 rounded-xl p-3 text-center flex flex-col items-center">
-            <img src="02_brand/icons/svg/cloud.svg" alt="" class="w-[44px] h-[44px] mb-2 brightness-0">
+          <div class="service-card">
+            <i data-lucide="cloud" class="service-icon"></i>
             <p class="text-[12px] font-bold leading-tight">Hosting &amp; Technik</p>
             <p class="mt-1.5 text-[10.5px] text-gray-500 leading-snug">SSL, Domain-Anbindung, schnelle Ladezeiten</p>
           </div>
-          <div class="border border-gray-200 rounded-xl p-3 text-center flex flex-col items-center">
-            <img src="02_brand/icons/svg/refresh.svg" alt="" class="w-[44px] h-[44px] mb-2 brightness-0">
+          <div class="service-card">
+            <i data-lucide="refresh-cw" class="service-icon"></i>
             <p class="text-[12px] font-bold leading-tight">Wartung &amp; Updates</p>
             <p class="mt-1.5 text-[10.5px] text-gray-500 leading-snug">Sicher, aktuell und betreut</p>
           </div>
-          <div class="border border-gray-200 rounded-xl p-3 text-center flex flex-col items-center">
-            <img src="02_brand/icons/svg/seo.svg" alt="" class="w-[44px] h-[44px] mb-2 brightness-0">
+          <div class="service-card">
+            <i data-lucide="chart-no-axes-combined" class="service-icon"></i>
             <p class="text-[12px] font-bold leading-tight">SEO-Basis</p>
             <p class="mt-1.5 text-[10.5px] text-gray-500 leading-snug">Für bessere Auffindbarkeit bei Google</p>
           </div>
-          <div class="border border-gray-200 rounded-xl p-3 text-center flex flex-col items-center">
-            <img src="02_brand/icons/svg/responsive.svg" alt="" class="w-[44px] h-[44px] mb-2 brightness-0">
+          <div class="service-card">
+            <i data-lucide="monitor-smartphone" class="service-icon"></i>
             <p class="text-[12px] font-bold leading-tight">Responsive Design</p>
             <p class="mt-1.5 text-[10.5px] text-gray-500 leading-snug">Perfekt auf Handy, Tablet und Desktop</p>
           </div>
-          <div class="border border-gray-200 rounded-xl p-3 text-center flex flex-col items-center">
-            <img src="02_brand/icons/svg/headset.svg" alt="" class="w-[44px] h-[44px] mb-2 brightness-0">
+          <div class="service-card">
+            <i data-lucide="headphones" class="service-icon"></i>
             <p class="text-[12px] font-bold leading-tight">Support &amp; kleine Änderungen</p>
             <p class="mt-1.5 text-[10.5px] text-gray-500 leading-snug">Schnell, persönlich, zuverlässig</p>
           </div>
@@ -222,105 +468,78 @@
         </div>
         <div class="acc-body max-lg:hidden max-lg:px-4 max-lg:pb-4">
         <div class="overflow-x-auto">
-          <table class="w-full max-lg:min-w-[560px] text-[11px] leading-snug border-collapse">
+          <table class="compare-table max-lg:min-w-[620px]">
             <thead>
-              <tr class="text-gray-700">
-                <th class="text-left font-semibold pb-3 pr-2 w-[18%] border-b border-gray-200"></th>
-                <th class="text-center font-bold pb-3 px-2 w-[22%] border border-gray-200">Klassische Agentur</th>
-                <th class="text-center font-bold pb-3 px-2 w-[20%] border border-gray-200">Baukasten</th>
-                <th
-                  class="text-center font-bold pb-3 px-3 w-[40%] bg-brand-soft border-x border-t border-orange-300 rounded-t-lg text-brand">
-                  w-doo</th>
+              <tr>
+                <th></th>
+                <th>Klassische Agentur</th>
+                <th>Baukasten</th>
+                <th class="wdoo-col">w-doo</th>
               </tr>
             </thead>
             <tbody class="text-gray-600">
               <tr>
-                <td class="py-3 px-2 font-bold text-ink border border-gray-200"><span
-                    class="flex items-center gap-2"><img src="02_brand/icons/svg/palette.svg"
-                      class="w-5 h-5 shrink-0 brightness-0" alt="">Designqualität</span></td>
-                <td class="py-3 px-2 text-center border border-gray-200">hochwertig, aber teuer</td>
-                <td class="py-3 px-2 text-center border border-gray-200">günstig, aber einfach &amp; Standard</td>
-                <td class="py-3 px-3 bg-brand-soft border-x border-b border-orange-300 font-bold text-ink">
-                  <span class="flex items-center justify-between gap-1"><span>individuell, modern &amp;
-                      professionell</span><i data-lucide="star"
-                      class="w-4 h-4 text-brand fill-brand shrink-0"></i></span>
+                <td><span class="flex items-center gap-2"><i data-lucide="palette" class="w-4 h-4 shrink-0"></i>Designqualität</span></td>
+                <td class="text-center">hochwertig,<br>aber teuer</td>
+                <td class="text-center">günstig,<br>aber Standard</td>
+                <td class="wdoo-col">
+                  <span class="flex items-center justify-between gap-1"><span>individuell, modern &amp; professionell</span><i data-lucide="star" class="w-3.5 h-3.5 text-brand fill-brand shrink-0"></i></span>
                 </td>
               </tr>
               <tr>
-                <td class="py-3 px-2 font-bold text-ink border border-gray-200"><span
-                    class="flex items-center gap-2"><img src="02_brand/icons/svg/calendar.svg"
-                      class="w-5 h-5 shrink-0 brightness-0" alt="">Zeitaufwand für den Kunden</span></td>
-                <td class="py-3 px-2 text-center border border-gray-200">hoch – viele Absprachen &amp; Schleifen</td>
-                <td class="py-3 px-2 text-center border border-gray-200">hoch – viel Eigenarbeit</td>
-                <td class="py-3 px-3 bg-brand-soft border-x border-b border-orange-300 font-bold text-ink">
-                  <span class="flex items-center justify-between gap-1"><span>gering – wir übernehmen fast
-                      alles</span><i data-lucide="star" class="w-4 h-4 text-brand fill-brand shrink-0"></i></span>
+                <td><span class="flex items-center gap-2"><i data-lucide="clock" class="w-4 h-4 shrink-0"></i>Zeitaufwand für den Kunden</span></td>
+                <td class="text-center">hoch – viele Absprachen</td>
+                <td class="text-center">hoch – viel Eigenarbeit</td>
+                <td class="wdoo-col">
+                  <span class="flex items-center justify-between gap-1"><span>gering – wir übernehmen fast alles</span><i data-lucide="star" class="w-3.5 h-3.5 text-brand fill-brand shrink-0"></i></span>
                 </td>
               </tr>
               <tr>
-                <td class="py-3 px-2 font-bold text-ink border border-gray-200"><span
-                    class="flex items-center gap-2"><img src="02_brand/icons/svg/copy.svg"
-                      class="w-5 h-5 shrink-0 brightness-0" alt="">Texte &amp; Inhalte</span></td>
-                <td class="py-3 px-2 text-center border border-gray-200">oft extra berechnet</td>
-                <td class="py-3 px-2 text-center border border-gray-200">Texte &amp; Struktur selbst machen</td>
-                <td class="py-3 px-3 bg-brand-soft border-x border-b border-orange-300 font-bold text-ink">
-                  <span class="flex items-center justify-between gap-1"><span>inklusive – wir erstellen Inhalte für
-                      Sie</span><i data-lucide="star" class="w-4 h-4 text-brand fill-brand shrink-0"></i></span>
+                <td><span class="flex items-center gap-2"><i data-lucide="file-text" class="w-4 h-4 shrink-0"></i>Texte &amp; Inhalte</span></td>
+                <td class="text-center">oft extra berechnet</td>
+                <td class="text-center">selbst machen</td>
+                <td class="wdoo-col">
+                  <span class="flex items-center justify-between gap-1"><span>inklusive – wir erstellen Inhalte</span><i data-lucide="star" class="w-3.5 h-3.5 text-brand fill-brand shrink-0"></i></span>
                 </td>
               </tr>
               <tr>
-                <td class="py-3 px-2 font-bold text-ink border border-gray-200"><span
-                    class="flex items-center gap-2"><img src="02_brand/icons/svg/cloud.svg"
-                      class="w-5 h-5 shrink-0 brightness-0" alt="">Hosting</span></td>
-                <td class="py-3 px-2 text-center border border-gray-200">oft extra &amp; teuer</td>
-                <td class="py-3 px-2 text-center border border-gray-200">grundlegend, oft eingeschränkt</td>
-                <td class="py-3 px-3 bg-brand-soft border-x border-b border-orange-300 font-bold text-ink">
-                  <span class="flex items-center justify-between gap-1"><span>inklusive – sicher, schnell &amp;
-                      zuverlässig</span><i data-lucide="star" class="w-4 h-4 text-brand fill-brand shrink-0"></i></span>
+                <td><span class="flex items-center gap-2"><i data-lucide="cloud" class="w-4 h-4 shrink-0"></i>Hosting</span></td>
+                <td class="text-center">oft extra &amp; teuer</td>
+                <td class="text-center">grundlegend</td>
+                <td class="wdoo-col">
+                  <span class="flex items-center justify-between gap-1"><span>inklusive – sicher &amp; schnell</span><i data-lucide="star" class="w-3.5 h-3.5 text-brand fill-brand shrink-0"></i></span>
                 </td>
               </tr>
               <tr>
-                <td class="py-3 px-2 font-bold text-ink border border-gray-200"><span
-                    class="flex items-center gap-2"><img src="02_brand/icons/svg/shield.svg"
-                      class="w-5 h-5 shrink-0 brightness-0" alt="">Wartung</span></td>
-                <td class="py-3 px-2 text-center border border-gray-200">oft extra &amp; teuer</td>
-                <td class="py-3 px-2 text-center border border-gray-200">liegt beim Kunden</td>
-                <td class="py-3 px-3 bg-brand-soft border-x border-b border-orange-300 font-bold text-ink">
-                  <span class="flex items-center justify-between gap-1"><span>inklusive – Updates &amp;
-                      Sicherheit</span><i data-lucide="star" class="w-4 h-4 text-brand fill-brand shrink-0"></i></span>
+                <td><span class="flex items-center gap-2"><i data-lucide="shield-check" class="w-4 h-4 shrink-0"></i>Wartung</span></td>
+                <td class="text-center">oft extra &amp; teuer</td>
+                <td class="text-center">liegt beim Kunden</td>
+                <td class="wdoo-col">
+                  <span class="flex items-center justify-between gap-1"><span>inklusive – Updates &amp; Sicherheit</span><i data-lucide="star" class="w-3.5 h-3.5 text-brand fill-brand shrink-0"></i></span>
                 </td>
               </tr>
               <tr>
-                <td class="py-3 px-2 font-bold text-ink border border-gray-200"><span
-                    class="flex items-center gap-2"><img src="02_brand/icons/svg/search.svg"
-                      class="w-5 h-5 shrink-0 brightness-0" alt="">Support</span></td>
-                <td class="py-3 px-2 text-center border border-gray-200">oft extra &amp; teuer</td>
-                <td class="py-3 px-2 text-center border border-gray-200">nur Community oder Ticket</td>
-                <td class="py-3 px-3 bg-brand-soft border-x border-b border-orange-300 font-bold text-ink">
-                  <span class="flex items-center justify-between gap-1"><span>persönlich, schnell &amp;
-                      zuverlässig</span><i data-lucide="star" class="w-4 h-4 text-brand fill-brand shrink-0"></i></span>
+                <td><span class="flex items-center gap-2"><i data-lucide="headphones" class="w-4 h-4 shrink-0"></i>Support</span></td>
+                <td class="text-center">oft extra &amp; teuer</td>
+                <td class="text-center">Community oder Ticket</td>
+                <td class="wdoo-col">
+                  <span class="flex items-center justify-between gap-1"><span>persönlich, schnell &amp; zuverlässig</span><i data-lucide="star" class="w-3.5 h-3.5 text-brand fill-brand shrink-0"></i></span>
                 </td>
               </tr>
               <tr>
-                <td class="py-3 px-2 font-bold text-ink border border-gray-200"><span
-                    class="flex items-center gap-2"><img src="02_brand/icons/svg/euro.svg"
-                      class="w-5 h-5 shrink-0 brightness-0" alt="">Einmalkosten</span></td>
-                <td class="py-3 px-2 text-center border border-gray-200">2.500 – 6.000 €+ Einmalkosten</td>
-                <td class="py-3 px-2 text-center border border-gray-200">0 – 200 € Einrichtungsgebühr</td>
-                <td class="py-3 px-3 bg-brand-soft border-x border-b border-orange-300 font-bold text-ink">
-                  <span class="flex items-center justify-between gap-1"><span>0 € – keine Einrichtungskosten</span><i
-                      data-lucide="star" class="w-4 h-4 text-brand fill-brand shrink-0"></i></span>
+                <td><span class="flex items-center gap-2"><i data-lucide="euro" class="w-4 h-4 shrink-0"></i>Einmalkosten</span></td>
+                <td class="text-center">2.500 – 6.000 €+</td>
+                <td class="text-center">0 – 200 €</td>
+                <td class="wdoo-col">
+                  <span class="flex items-center justify-between gap-1"><span>0 € – keine Einrichtungskosten</span><i data-lucide="star" class="w-3.5 h-3.5 text-brand fill-brand shrink-0"></i></span>
                 </td>
               </tr>
               <tr>
-                <td class="py-3 px-2 font-bold text-ink border border-gray-200"><span
-                    class="flex items-center gap-2"><img src="02_brand/icons/svg/rocket.svg"
-                      class="w-5 h-5 shrink-0 brightness-0" alt="">Ergebnis</span></td>
-                <td class="py-3 px-2 text-center border border-gray-200">sehr gut, aber teuer &amp; langwierig</td>
-                <td class="py-3 px-2 text-center border border-gray-200">einfach, aber oft unprofessionell</td>
-                <td class="py-3 px-3 bg-brand-soft border-x border-b border-orange-300 rounded-b-lg font-bold text-ink">
-                  <span class="flex items-center justify-between gap-1"><span>individuell, bezahlbar und
-                      betreut</span><i data-lucide="star" class="w-4 h-4 text-brand fill-brand shrink-0"></i></span>
+                <td><span class="flex items-center gap-2"><i data-lucide="rocket" class="w-4 h-4 shrink-0"></i>Ergebnis</span></td>
+                <td class="text-center">sehr gut, aber teuer</td>
+                <td class="text-center">einfach, oft unprofessionell</td>
+                <td class="wdoo-col">
+                  <span class="flex items-center justify-between gap-1"><span>individuell, bezahlbar und betreut</span><i data-lucide="star" class="w-3.5 h-3.5 text-brand fill-brand shrink-0"></i></span>
                 </td>
               </tr>
             </tbody>
@@ -341,22 +560,19 @@
           <i data-lucide="chevron-right" class="acc-icon w-4 h-4 text-gray-400 shrink-0 mt-1 transition-transform duration-300 lg:hidden"></i>
         </div>
         <div class="acc-body max-lg:hidden max-lg:px-4 max-lg:pb-4">
-        <div class="bg-white rounded-xl border border-gray-200 p-4">
+        <div class="bg-white rounded-lg border border-gray-200 p-4 shadow-card">
           <ul class="space-y-4 text-[13px] text-gray-700 leading-snug">
-            <li class="flex gap-3"><img src="02_brand/icons/svg/check-circle.svg" class="w-5 h-5 shrink-0 mt-0.5"
-                alt="">Sie erhalten von uns 2 individuelle Designvorschläge.</li>
-            <li class="flex gap-3"><img src="02_brand/icons/svg/check-circle.svg" class="w-5 h-5 shrink-0 mt-0.5"
-                alt="">Danach entscheiden Sie ganz in Ruhe, ob Sie weitermachen möchten.</li>
-            <li class="flex gap-3"><img src="02_brand/icons/svg/check-circle.svg" class="w-5 h-5 shrink-0 mt-0.5"
-                alt="">Es gibt keinen automatischen Auftrag.</li>
-            <li class="flex gap-3"><img src="02_brand/icons/svg/check-circle.svg" class="w-5 h-5 shrink-0 mt-0.5"
-                alt=""><span><strong class="text-ink">Kein Risiko. Kein Druck.</strong><br>Kein Kleingedrucktes.</span>
+            <li class="mini-feature"><i data-lucide="check-circle-2" class="w-[18px] h-[18px] text-brand shrink-0 mt-0.5"></i>Sie erhalten von uns 2 individuelle Designvorschläge.</li>
+            <li class="mini-feature"><i data-lucide="check-circle-2" class="w-[18px] h-[18px] text-brand shrink-0 mt-0.5"></i>Danach entscheiden Sie ganz in Ruhe, ob Sie weitermachen möchten.</li>
+            <li class="mini-feature"><i data-lucide="check-circle-2" class="w-[18px] h-[18px] text-brand shrink-0 mt-0.5"></i>Es gibt keinen automatischen Auftrag.</li>
+            <li class="mini-feature"><i data-lucide="check-circle-2" class="w-[18px] h-[18px] text-brand shrink-0 mt-0.5"></i><span><strong class="text-ink">Kein Risiko. Kein Druck.</strong><br>Kein Kleingedrucktes.</span>
             </li>
           </ul>
         </div>
-        <div class="mt-6 flex justify-center">
-          <img src="03_graphics/svg/kein-automatischer-auftrag-stempel.svg" alt="Kein automatischer Auftrag"
-            class="w-[200px] h-[200px] stamp">
+        <div class="mt-7 flex justify-center">
+          <div class="css-stamp" aria-label="Kein automatischer Auftrag">
+            Kein<br>automatischer<br>Auftrag
+          </div>
         </div>
         </div>
       </div>
@@ -381,75 +597,36 @@
             <i data-lucide="chevron-right" class="acc-icon w-4 h-4 text-gray-400 shrink-0 transition-transform duration-300 lg:hidden"></i>
           </div>
           <div class="acc-body max-lg:hidden max-lg:px-4 max-lg:pb-4">
-          <div class="flex max-lg:flex-col items-center lg:items-start lg:justify-between max-lg:gap-2 gap-0">
-
-            <!-- Step 1 -->
-            <div class="flex flex-col items-center text-center w-[112px]">
-              <div class="relative mb-3">
-                <div class="step-blob bg-brand-soft w-[88px] h-[72px] flex items-center justify-center mx-auto">
-                  <img src="02_brand/icons/svg/form.svg" class="w-9 h-9" alt="">
-                </div>
-              </div>
+          <div class="process-row">
+            <div class="process-step">
+              <div class="process-icon"><i data-lucide="clipboard-list" class="w-7 h-7"></i></div>
               <p class="text-[11px] font-bold text-ink leading-tight">Anfrage senden</p>
-              <p class="mt-0.5 text-[10px] text-gray-500 leading-snug">Kurzformular ausfüllen</p>
+              <p class="mt-1 text-[10px] text-gray-500 leading-snug">Kurzformular ausfüllen</p>
+              <i data-lucide="arrow-right" class="process-arrow w-4 h-4"></i>
             </div>
-
-            <!-- Arrow -->
-            <div class="flex-shrink-0 mt-[25px] max-lg:mt-0 max-lg:rotate-90 text-[22px] font-bold text-gray-800 leading-none">&gt;</div>
-
-            <!-- Step 2 -->
-            <div class="flex flex-col items-center text-center w-[112px]">
-              <div class="relative mb-3">
-                <div class="step-blob bg-brand-soft w-[88px] h-[72px] flex items-center justify-center mx-auto">
-                  <img src="02_brand/icons/svg/chat.svg" class="w-9 h-9" alt="">
-                </div>
-              </div>
+            <div class="process-step">
+              <div class="process-icon"><i data-lucide="messages-square" class="w-7 h-7"></i></div>
               <p class="text-[11px] font-bold text-ink leading-tight">Kennenlerngespräch</p>
-              <p class="mt-0.5 text-[10px] text-gray-500 leading-snug">Ziele &amp; Wünsche besprechen</p>
+              <p class="mt-1 text-[10px] text-gray-500 leading-snug">Ziele &amp; Wünsche besprechen</p>
+              <i data-lucide="arrow-right" class="process-arrow w-4 h-4"></i>
             </div>
-
-            <!-- Arrow -->
-            <div class="flex-shrink-0 mt-[25px] max-lg:mt-0 max-lg:rotate-90 text-[22px] font-bold text-gray-800 leading-none">&gt;</div>
-
-            <!-- Step 3 -->
-            <div class="flex flex-col items-center text-center w-[112px]">
-              <div class="relative mb-3">
-                <div class="step-blob bg-brand-soft w-[88px] h-[72px] flex items-center justify-center mx-auto">
-                  <img src="02_brand/icons/svg/layout.svg" class="w-9 h-9" alt="">
-                </div>
-              </div>
+            <div class="process-step">
+              <div class="process-icon"><i data-lucide="panels-top-left" class="w-7 h-7"></i></div>
               <p class="text-[11px] font-bold text-ink leading-tight">2 Designvorschläge erhalten</p>
-              <p class="mt-0.5 text-[10px] text-gray-500 leading-snug">Kostenlos und unverbindlich</p>
+              <p class="mt-1 text-[10px] text-gray-500 leading-snug">Kostenlos und unverbindlich</p>
+              <i data-lucide="arrow-right" class="process-arrow w-4 h-4"></i>
             </div>
-
-            <!-- Arrow -->
-            <div class="flex-shrink-0 mt-[25px] max-lg:mt-0 max-lg:rotate-90 text-[22px] font-bold text-gray-800 leading-none">&gt;</div>
-
-            <!-- Step 4 -->
-            <div class="flex flex-col items-center text-center w-[112px]">
-              <div class="relative mb-3">
-                <div class="step-blob bg-brand-soft w-[88px] h-[72px] flex items-center justify-center mx-auto">
-                  <img src="02_brand/icons/svg/check-circle.svg" class="w-9 h-9" alt="">
-                </div>
-              </div>
+            <div class="process-step">
+              <div class="process-icon"><i data-lucide="badge-check" class="w-7 h-7"></i></div>
               <p class="text-[11px] font-bold text-ink leading-tight">Sie entscheiden</p>
-              <p class="mt-0.5 text-[10px] text-gray-500 leading-snug">Gefällt Ihnen ein Entwurf, geht es weiter</p>
+              <p class="mt-1 text-[10px] text-gray-500 leading-snug">Gefällt Ihnen ein Entwurf, geht es weiter</p>
+              <i data-lucide="arrow-right" class="process-arrow w-4 h-4"></i>
             </div>
-
-            <!-- Arrow -->
-            <div class="flex-shrink-0 mt-[25px] max-lg:mt-0 max-lg:rotate-90 text-[22px] font-bold text-gray-800 leading-none">&gt;</div>
-
-            <!-- Step 5 -->
-            <div class="flex flex-col items-center text-center w-[112px]">
-              <div class="relative mb-3">
-                <div class="step-blob bg-brand-soft w-[88px] h-[72px] flex items-center justify-center mx-auto">
-                  <img src="02_brand/icons/svg/rocket.svg" class="w-9 h-9" alt="">
-                </div>
-              </div>
+            <div class="process-step">
+              <div class="process-icon"><i data-lucide="rocket" class="w-7 h-7"></i></div>
               <p class="text-[11px] font-bold text-ink leading-tight">Livegang</p>
-              <p class="mt-0.5 text-[10px] text-gray-500 leading-snug">Ihre Website geht professionell online</p>
+              <p class="mt-1 text-[10px] text-gray-500 leading-snug">Ihre Website geht professionell online</p>
             </div>
-
           </div>
           </div>
         </div>
@@ -466,42 +643,37 @@
           </div>
           <div class="acc-body max-lg:hidden max-lg:px-4 max-lg:pb-4">
           <div class="grid grid-cols-2 lg:grid-cols-5 gap-3">
-            <a href="#" class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-md transition-shadow">
-              <img src="https://picsum.photos/seed/dentist/400/240" alt="Zahnarztpraxis"
-                class="w-full h-[120px] object-cover">
+            <a href="#" class="reference-card">
+              <img src="https://picsum.photos/seed/wdoo-dentist/500/320" alt="Zahnarztpraxis">
               <div class="p-2.5">
                 <p class="text-[10.5px] font-bold leading-tight">Zahnarztpraxis</p>
                 <p class="mt-1 text-[9px] text-gray-500 leading-snug">Modern, vertrauensvoll &amp; patientenfreundlich
                 </p>
               </div>
             </a>
-            <a href="#" class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-md transition-shadow">
-              <img src="https://picsum.photos/seed/craftsman/400/240" alt="Handwerksbetrieb"
-                class="w-full h-[120px] object-cover">
+            <a href="#" class="reference-card">
+              <img src="https://picsum.photos/seed/wdoo-craftsman/500/320" alt="Handwerksbetrieb">
               <div class="p-2.5">
                 <p class="text-[10.5px] font-bold leading-tight">Handwerksbetrieb</p>
                 <p class="mt-1 text-[9px] text-gray-500 leading-snug">Stark im Auftritt, mehr Anfragen gewinnen</p>
               </div>
             </a>
-            <a href="#" class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-md transition-shadow">
-              <img src="https://picsum.photos/seed/businessman/400/240" alt="Steuerberater"
-                class="w-full h-[120px] object-cover">
+            <a href="#" class="reference-card">
+              <img src="https://picsum.photos/seed/wdoo-tax/500/320" alt="Steuerberater">
               <div class="p-2.5">
                 <p class="text-[10.5px] font-bold leading-tight">Steuerberater</p>
                 <p class="mt-1 text-[9px] text-gray-500 leading-snug">Kompetent, seriös &amp; professionell</p>
               </div>
             </a>
-            <a href="#" class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-md transition-shadow">
-              <img src="https://picsum.photos/seed/beauty/400/240" alt="Kosmetikstudio"
-                class="w-full h-[120px] object-cover">
+            <a href="#" class="reference-card">
+              <img src="https://picsum.photos/seed/wdoo-beauty/500/320" alt="Kosmetikstudio">
               <div class="p-2.5">
                 <p class="text-[10.5px] font-bold leading-tight">Kosmetikstudio</p>
                 <p class="mt-1 text-[9px] text-gray-500 leading-snug">Ästhetisch, ansprechend &amp; überzeugend</p>
               </div>
             </a>
-            <a href="#" class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-md transition-shadow">
-              <img src="https://picsum.photos/seed/apartment/400/240" alt="Immobilien / Dienstleister"
-                class="w-full h-[120px] object-cover">
+            <a href="#" class="reference-card">
+              <img src="https://picsum.photos/seed/wdoo-real-estate/500/320" alt="Immobilien / Dienstleister">
               <div class="p-2.5">
                 <p class="text-[10.5px] font-bold leading-tight">Immobilien / Dienstleister</p>
                 <p class="mt-1 text-[9px] text-gray-500 leading-snug">Überzeugen Sie online mit Vertrauen</p>
@@ -529,16 +701,16 @@
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
 
             <!-- Testimonial 1 -->
-            <div>
-              <div class="flex items-center justify-between mb-3">
+            <div class="testimonial-card">
+              <div class="flex items-center justify-between gap-3 mb-3">
                 <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Markus L."
-                  class="w-14 h-14 rounded-full object-cover border-2 border-white shadow">
+                  class="w-12 h-12 rounded-full object-cover border-2 border-white shadow">
                 <div class="flex gap-0.5">
-                  <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
-                  <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
-                  <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
-                  <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
-                  <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
+                  <i data-lucide="star" class="w-3.5 h-3.5 text-amber-400 fill-amber-400"></i>
+                  <i data-lucide="star" class="w-3.5 h-3.5 text-amber-400 fill-amber-400"></i>
+                  <i data-lucide="star" class="w-3.5 h-3.5 text-amber-400 fill-amber-400"></i>
+                  <i data-lucide="star" class="w-3.5 h-3.5 text-amber-400 fill-amber-400"></i>
+                  <i data-lucide="star" class="w-3.5 h-3.5 text-amber-400 fill-amber-400"></i>
                 </div>
               </div>
               <p class="text-[11px] text-gray-600 leading-snug mb-3">„Endlich eine Website, die professionell aussieht und Anfragen bringt."</p>
@@ -547,16 +719,16 @@
             </div>
 
             <!-- Testimonial 2 -->
-            <div>
-              <div class="flex items-center justify-between mb-3">
+            <div class="testimonial-card">
+              <div class="flex items-center justify-between gap-3 mb-3">
                 <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sandra T."
-                  class="w-14 h-14 rounded-full object-cover border-2 border-white shadow">
+                  class="w-12 h-12 rounded-full object-cover border-2 border-white shadow">
                 <div class="flex gap-0.5">
-                  <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
-                  <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
-                  <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
-                  <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
-                  <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
+                  <i data-lucide="star" class="w-3.5 h-3.5 text-amber-400 fill-amber-400"></i>
+                  <i data-lucide="star" class="w-3.5 h-3.5 text-amber-400 fill-amber-400"></i>
+                  <i data-lucide="star" class="w-3.5 h-3.5 text-amber-400 fill-amber-400"></i>
+                  <i data-lucide="star" class="w-3.5 h-3.5 text-amber-400 fill-amber-400"></i>
+                  <i data-lucide="star" class="w-3.5 h-3.5 text-amber-400 fill-amber-400"></i>
                 </div>
               </div>
               <p class="text-[11px] text-gray-600 leading-snug mb-3">„Besonders stark: die zwei Designvorschläge und die ehrliche, unverbindliche Beratung."</p>
@@ -565,34 +737,34 @@
             </div>
 
             <!-- Testimonial 3 -->
-            <div>
-              <div class="flex items-center justify-between mb-3">
+            <div class="testimonial-card">
+              <div class="flex items-center justify-between gap-3 mb-3">
                 <img src="https://randomuser.me/api/portraits/men/52.jpg" alt="Thomas K."
-                  class="w-14 h-14 rounded-full object-cover border-2 border-white shadow">
+                  class="w-12 h-12 rounded-full object-cover border-2 border-white shadow">
                 <div class="flex gap-0.5">
-                  <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
-                  <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
-                  <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
-                  <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
-                  <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
+                  <i data-lucide="star" class="w-3.5 h-3.5 text-amber-400 fill-amber-400"></i>
+                  <i data-lucide="star" class="w-3.5 h-3.5 text-amber-400 fill-amber-400"></i>
+                  <i data-lucide="star" class="w-3.5 h-3.5 text-amber-400 fill-amber-400"></i>
+                  <i data-lucide="star" class="w-3.5 h-3.5 text-amber-400 fill-amber-400"></i>
+                  <i data-lucide="star" class="w-3.5 h-3.5 text-amber-400 fill-amber-400"></i>
                 </div>
               </div>
-              <p class="text-[11px] text-gray-600 leading-snug mb-3">„Für 90 € im Monat hätten wir niemals so viel Leistung erwartet."</p>
+              <p class="text-[11px] text-gray-600 leading-snug mb-3">„Für 99 € im Monat hätten wir niemals so viel Leistung erwartet."</p>
               <p class="text-[12px] font-bold text-ink leading-tight">Thomas K.</p>
               <p class="text-[10.5px] text-gray-400 mt-0.5">Handwerksbetrieb</p>
             </div>
 
             <!-- Testimonial 4 -->
-            <div>
-              <div class="flex items-center justify-between mb-3">
+            <div class="testimonial-card">
+              <div class="flex items-center justify-between gap-3 mb-3">
                 <img src="https://randomuser.me/api/portraits/women/17.jpg" alt="Julia B."
-                  class="w-14 h-14 rounded-full object-cover border-2 border-white shadow">
+                  class="w-12 h-12 rounded-full object-cover border-2 border-white shadow">
                 <div class="flex gap-0.5">
-                  <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
-                  <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
-                  <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
-                  <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
-                  <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
+                  <i data-lucide="star" class="w-3.5 h-3.5 text-amber-400 fill-amber-400"></i>
+                  <i data-lucide="star" class="w-3.5 h-3.5 text-amber-400 fill-amber-400"></i>
+                  <i data-lucide="star" class="w-3.5 h-3.5 text-amber-400 fill-amber-400"></i>
+                  <i data-lucide="star" class="w-3.5 h-3.5 text-amber-400 fill-amber-400"></i>
+                  <i data-lucide="star" class="w-3.5 h-3.5 text-amber-400 fill-amber-400"></i>
                 </div>
               </div>
               <p class="text-[11px] text-gray-600 leading-snug mb-3">„Schneller Support, kleine Änderungen ohne lange Wartezeiten."</p>
@@ -616,9 +788,9 @@
           </div>
           <div class="acc-body max-lg:hidden max-lg:px-4 max-lg:pb-4">
           <div class="grid grid-cols-1 lg:grid-cols-4 gap-3 items-start">
-            <div class="faq-item bg-gray-50 border border-gray-200 rounded-xl overflow-hidden">
+            <div class="faq-item faq-compact">
               <button
-                class="faq-q w-full px-4 py-4 flex items-start justify-between gap-3 text-left text-[11.5px] font-semibold text-ink hover:bg-gray-100 transition-colors">
+                class="faq-q w-full px-4 py-4 flex items-start justify-between gap-3 text-left text-[11.5px] font-bold text-ink hover:bg-gray-100 transition-colors">
                 Warum ist 99 € / Monat so günstig?
                 <i data-lucide="plus" class="faq-icon w-4 h-4 text-gray-400 shrink-0 mt-0.5 transition-transform duration-300"></i>
               </button>
@@ -628,9 +800,9 @@
                   Einmalpreises zahlen Sie einen fairen Monatsbetrag.</p>
               </div>
             </div>
-            <div class="faq-item bg-gray-50 border border-gray-200 rounded-xl overflow-hidden">
+            <div class="faq-item faq-compact">
               <button
-                class="faq-q w-full px-4 py-4 flex items-start justify-between gap-3 text-left text-[11.5px] font-semibold text-ink hover:bg-gray-100 transition-colors">
+                class="faq-q w-full px-4 py-4 flex items-start justify-between gap-3 text-left text-[11.5px] font-bold text-ink hover:bg-gray-100 transition-colors">
                 Ist das wirklich unverbindlich?
                 <i data-lucide="plus" class="faq-icon w-4 h-4 text-gray-400 shrink-0 mt-0.5 transition-transform duration-300"></i>
               </button>
@@ -640,9 +812,9 @@
                   automatischer Auftrag.</p>
               </div>
             </div>
-            <div class="faq-item bg-gray-50 border border-gray-200 rounded-xl overflow-hidden">
+            <div class="faq-item faq-compact">
               <button
-                class="faq-q w-full px-4 py-4 flex items-start justify-between gap-3 text-left text-[11.5px] font-semibold text-ink hover:bg-gray-100 transition-colors">
+                class="faq-q w-full px-4 py-4 flex items-start justify-between gap-3 text-left text-[11.5px] font-bold text-ink hover:bg-gray-100 transition-colors">
                 Was ist alles im Preis enthalten?
                 <i data-lucide="plus" class="faq-icon w-4 h-4 text-gray-400 shrink-0 mt-0.5 transition-transform duration-300"></i>
               </button>
@@ -652,9 +824,9 @@
               </div>
             </div>
             <div class="space-y-3">
-              <div class="faq-item bg-gray-50 border border-gray-200 rounded-xl overflow-hidden">
+              <div class="faq-item faq-compact">
                 <button
-                  class="faq-q w-full px-4 py-4 flex items-start justify-between gap-3 text-left text-[11.5px] font-semibold text-ink hover:bg-gray-100 transition-colors">
+                  class="faq-q w-full px-4 py-4 flex items-start justify-between gap-3 text-left text-[11.5px] font-bold text-ink hover:bg-gray-100 transition-colors">
                   Wie schnell ist meine Website live?
                   <i data-lucide="plus" class="faq-icon w-4 h-4 text-gray-400 shrink-0 mt-0.5 transition-transform duration-300"></i>
                 </button>
@@ -663,9 +835,9 @@
                     von 7–14 Tagen nach Freigabe des Designs online.</p>
                 </div>
               </div>
-              <div class="faq-item bg-gray-50 border border-gray-200 rounded-xl overflow-hidden">
+              <div class="faq-item faq-compact">
                 <button
-                  class="faq-q w-full px-4 py-4 flex items-start justify-between gap-3 text-left text-[11.5px] font-semibold text-ink hover:bg-gray-100 transition-colors">
+                  class="faq-q w-full px-4 py-4 flex items-start justify-between gap-3 text-left text-[11.5px] font-bold text-ink hover:bg-gray-100 transition-colors">
                   Kann ich meine bestehende Domain behalten?
                   <i data-lucide="plus" class="faq-icon w-4 h-4 text-gray-400 shrink-0 mt-0.5 transition-transform duration-300"></i>
                 </button>
