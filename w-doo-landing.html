@@ -97,18 +97,18 @@
   <!-- HERO — full-width white -->
 
   <!-- HERO (1) -->
-  <section class="bg-white rounded-t-2xl px-10 pt-8 pb-0">
+  <section class="bg-white rounded-t-2xl px-5 lg:px-10 pt-8 pb-0">
     <div class="grid lg:grid-cols-[1fr_1.45fr] gap-10 items-center">
       <div>
         <p class="text-[13px] font-bold text-brand mb-3">Websites im Abo. Ohne Startkosten. Ohne Risiko.</p>
-        <h1 class="text-[42px] leading-[1.1] font-extrabold tracking-tight text-ink">
+        <h1 class="text-[30px] lg:text-[42px] leading-[1.15] lg:leading-[1.1] font-extrabold tracking-tight text-ink">
           Warum 99 € / Monat<br>ein echter Schnapper sind.
         </h1>
         <p class="mt-4 text-[14px] leading-relaxed text-gray-600 max-w-[500px]">
           Sie erhalten eine professionelle Website inklusive Design, Texte, Hosting, Wartung, Updates und Support –
           statt mehrere Tausend Euro auf einmal zu zahlen.
         </p>
-        <ul class="mt-6 grid grid-cols-2 gap-x-6 gap-y-3 text-[13px] font-medium text-gray-800">
+        <ul class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3 text-[13px] font-medium text-gray-800">
           <li class="flex items-center gap-2"><img src="02_brand/icons/svg/check-circle.svg"
               class="w-[18px] h-[18px] shrink-0" alt="">2 kostenlose Designvorschläge</li>
           <li class="flex items-center gap-2"><img src="02_brand/icons/svg/check-circle.svg"
@@ -120,7 +120,7 @@
           <li class="flex items-center gap-2"><img src="02_brand/icons/svg/check-circle.svg"
               class="w-[18px] h-[18px] shrink-0" alt="">Keine Einrichtungsgebühr</li>
         </ul>
-        <div class="mt-7 flex flex-wrap gap-3">
+        <div class="mt-7 flex max-sm:flex-col flex-wrap gap-3">
           <a href="#kontakt"
             class="inline-flex items-center justify-center gap-2 bg-gradient-to-br from-brand-light via-brand to-brand-dark hover:opacity-90 text-white text-[14px] font-bold rounded-xl px-6 py-3.5 shadow-btn transition-colors">
             Kostenlose Designvorschläge sichern <i data-lucide="arrow-right" class="w-4 h-4"></i>
@@ -130,14 +130,14 @@
             Unverbindlich beraten lassen
           </a>
         </div>
-        <div class="mt-7 flex flex-wrap items-center gap-x-7 gap-y-3 text-[13px] font-semibold text-gray-700">
-          <span class="flex items-center gap-1.5"><img src="02_brand/icons/svg/star.svg" class="w-[18px] h-[18px]"
+        <div class="mt-7 grid grid-cols-4 gap-2 sm:flex sm:flex-wrap sm:items-center sm:gap-x-7 sm:gap-y-3 text-[11px] sm:text-[13px] font-semibold text-gray-700">
+          <span class="flex flex-col sm:flex-row items-center text-center sm:text-left gap-1.5"><img src="02_brand/icons/svg/star.svg" class="w-[18px] h-[18px]"
               alt="">5/5 Bewertungen</span>
-          <span class="flex items-center gap-1.5"><img src="02_brand/icons/svg/shield.svg" class="w-[18px] h-[18px]"
+          <span class="flex flex-col sm:flex-row items-center text-center sm:text-left gap-1.5"><img src="02_brand/icons/svg/shield.svg" class="w-[18px] h-[18px]"
               alt="">DSGVO-konform</span>
-          <span class="flex items-center gap-1.5"><img src="02_brand/icons/svg/mobile.svg" class="w-[18px] h-[18px]"
+          <span class="flex flex-col sm:flex-row items-center text-center sm:text-left gap-1.5"><img src="02_brand/icons/svg/mobile.svg" class="w-[18px] h-[18px]"
               alt="">Mobil optimiert</span>
-          <span class="flex items-center gap-1.5"><img src="02_brand/icons/svg/search.svg" class="w-[18px] h-[18px]"
+          <span class="flex flex-col sm:flex-row items-center text-center sm:text-left gap-1.5"><img src="02_brand/icons/svg/search.svg" class="w-[18px] h-[18px]"
               alt="">SEO-Basis inklusive</span>
         </div>
       </div>
@@ -151,16 +151,20 @@
   </section>
 
   <!-- ROW 2 / 3 / 4 — full-width white band -->
-  <div class="bg-white border-b border-gray-100">
-    <div class="grid lg:grid-cols-[1.25fr_1.15fr_0.72fr] divide-x divide-gray-100">
+  <div class="bg-white border-b border-gray-100 max-lg:border-0 max-lg:px-4 max-lg:pt-3 max-lg:pb-0">
+    <div class="grid lg:grid-cols-[1.25fr_1.15fr_0.72fr] lg:divide-x divide-gray-100 max-lg:space-y-3">
 
       <!-- (2) -->
-      <div id="leistungen" class="px-6 py-8">
-        <div class="flex items-center gap-2.5 mb-4">
-          <span
-            class="w-6 h-6 rounded-full bg-brand text-white text-[12px] font-bold flex items-center justify-center shrink-0">2</span>
-          <h2 class="text-[14.5px] font-bold text-ink">Was Sie für 99 € / Monat alles bekommen</h2>
+      <div id="leistungen" class="px-6 py-8 max-lg:p-0 max-lg:rounded-xl max-lg:border max-lg:border-gray-200">
+        <div class="acc-toggle flex items-center justify-between gap-3 mb-4 max-lg:mb-0 max-lg:px-4 max-lg:py-4 max-lg:cursor-pointer">
+          <div class="flex items-center gap-2.5">
+            <span
+              class="w-6 h-6 rounded-full bg-brand text-white text-[12px] font-bold flex items-center justify-center shrink-0">2</span>
+            <h2 class="text-[14.5px] font-bold text-ink">Was Sie für 99 € / Monat alles bekommen</h2>
+          </div>
+          <i data-lucide="chevron-right" class="acc-icon w-4 h-4 text-gray-400 shrink-0 transition-transform duration-300 lg:hidden"></i>
         </div>
+        <div class="acc-body max-lg:hidden max-lg:px-4 max-lg:pb-4">
         <div class="grid grid-cols-2 md:grid-cols-4 gap-2.5">
           <div class="border border-gray-200 rounded-xl p-3 text-center flex flex-col items-center">
             <img src="02_brand/icons/svg/palette.svg" alt="" class="w-[44px] h-[44px] mb-2 brightness-0">
@@ -203,17 +207,22 @@
             <p class="mt-1.5 text-[10.5px] text-gray-500 leading-snug">Schnell, persönlich, zuverlässig</p>
           </div>
         </div>
+        </div>
       </div>
 
       <!-- (3) -->
-      <div id="preise" class="px-6 py-8">
-        <div class="flex items-center gap-2.5 mb-4">
-          <span
-            class="w-6 h-6 rounded-full bg-brand text-white text-[12px] font-bold flex items-center justify-center shrink-0">3</span>
-          <h2 class="text-[14.5px] font-bold text-ink">Darum sind 99 € / Monat so attraktiv</h2>
+      <div id="preise" class="px-6 py-8 max-lg:p-0 max-lg:rounded-xl max-lg:border max-lg:border-gray-200">
+        <div class="acc-toggle flex items-center justify-between gap-3 mb-4 max-lg:mb-0 max-lg:px-4 max-lg:py-4 max-lg:cursor-pointer">
+          <div class="flex items-center gap-2.5">
+            <span
+              class="w-6 h-6 rounded-full bg-brand text-white text-[12px] font-bold flex items-center justify-center shrink-0">3</span>
+            <h2 class="text-[14.5px] font-bold text-ink">Darum sind 99 € / Monat so attraktiv</h2>
+          </div>
+          <i data-lucide="chevron-right" class="acc-icon w-4 h-4 text-gray-400 shrink-0 transition-transform duration-300 lg:hidden"></i>
         </div>
+        <div class="acc-body max-lg:hidden max-lg:px-4 max-lg:pb-4">
         <div class="overflow-x-auto">
-          <table class="w-full text-[11px] leading-snug border-collapse">
+          <table class="w-full max-lg:min-w-[560px] text-[11px] leading-snug border-collapse">
             <thead>
               <tr class="text-gray-700">
                 <th class="text-left font-semibold pb-3 pr-2 w-[18%] border-b border-gray-200"></th>
@@ -317,16 +326,21 @@
             </tbody>
           </table>
         </div>
+        </div>
       </div>
 
       <!-- (4) -->
-      <div class="px-6 py-8 overflow-hidden">
-        <div class="flex items-start gap-2.5 mb-5">
-          <span
-            class="w-6 h-6 rounded-full bg-brand text-white text-[12px] font-bold flex items-center justify-center shrink-0 mt-0.5">4</span>
-          <h2 class="text-[16px] font-bold text-ink leading-snug">2 kostenlose Designvorschläge.<br>100&nbsp;%
-            unverbindlich.</h2>
+      <div class="px-6 py-8 overflow-hidden max-lg:p-0 max-lg:rounded-xl max-lg:border max-lg:border-gray-200">
+        <div class="acc-toggle flex items-start justify-between gap-3 mb-5 max-lg:mb-0 max-lg:px-4 max-lg:py-4 max-lg:cursor-pointer">
+          <div class="flex items-start gap-2.5">
+            <span
+              class="w-6 h-6 rounded-full bg-brand text-white text-[12px] font-bold flex items-center justify-center shrink-0 mt-0.5">4</span>
+            <h2 class="text-[16px] font-bold text-ink leading-snug">2 kostenlose Designvorschläge.<br>100&nbsp;%
+              unverbindlich.</h2>
+          </div>
+          <i data-lucide="chevron-right" class="acc-icon w-4 h-4 text-gray-400 shrink-0 mt-1 transition-transform duration-300 lg:hidden"></i>
         </div>
+        <div class="acc-body max-lg:hidden max-lg:px-4 max-lg:pb-4">
         <div class="bg-white rounded-xl border border-gray-200 p-4">
           <ul class="space-y-4 text-[13px] text-gray-700 leading-snug">
             <li class="flex gap-3"><img src="02_brand/icons/svg/check-circle.svg" class="w-5 h-5 shrink-0 mt-0.5"
@@ -344,25 +358,30 @@
           <img src="03_graphics/svg/kein-automatischer-auftrag-stempel.svg" alt="Kein automatischer Auftrag"
             class="w-[200px] h-[200px] stamp">
         </div>
+        </div>
       </div>
 
     </div>
   </div>
 
   <!-- ROW 5+6 | 7+8 — full-width white band -->
-  <div class="bg-white border-b border-gray-100">
-    <div class="grid lg:grid-cols-[1.25fr_1fr] divide-x divide-gray-100">
+  <div class="bg-white border-b border-gray-100 max-lg:border-0 max-lg:px-4 max-lg:pt-3 max-lg:pb-4">
+    <div class="grid lg:grid-cols-[1.25fr_1fr] lg:divide-x divide-gray-100 max-lg:space-y-3">
 
       <!-- LEFT: 5 + 6 stacked -->
-      <div class="divide-y divide-gray-100">
+      <div class="lg:divide-y divide-gray-100 max-lg:space-y-3">
         <!-- (5) -->
-        <div id="ablauf" class="px-10 py-8">
-          <div class="flex items-center gap-2.5 mb-6">
-            <span
-              class="w-6 h-6 rounded-full bg-brand text-white text-[12px] font-bold flex items-center justify-center shrink-0">5</span>
-            <h2 class="text-[14.5px] font-bold text-ink">So einfach kommen Sie zu Ihrer neuen Website</h2>
+        <div id="ablauf" class="px-10 py-8 max-lg:p-0 max-lg:rounded-xl max-lg:border max-lg:border-gray-200">
+          <div class="acc-toggle flex items-center justify-between gap-3 mb-6 max-lg:mb-0 max-lg:px-4 max-lg:py-4 max-lg:cursor-pointer">
+            <div class="flex items-center gap-2.5">
+              <span
+                class="w-6 h-6 rounded-full bg-brand text-white text-[12px] font-bold flex items-center justify-center shrink-0">5</span>
+              <h2 class="text-[14.5px] font-bold text-ink">So einfach kommen Sie zu Ihrer neuen Website</h2>
+            </div>
+            <i data-lucide="chevron-right" class="acc-icon w-4 h-4 text-gray-400 shrink-0 transition-transform duration-300 lg:hidden"></i>
           </div>
-          <div class="flex items-start justify-between gap-0">
+          <div class="acc-body max-lg:hidden max-lg:px-4 max-lg:pb-4">
+          <div class="flex max-lg:flex-col items-center lg:items-start lg:justify-between max-lg:gap-2 gap-0">
 
             <!-- Step 1 -->
             <div class="flex flex-col items-center text-center w-[112px]">
@@ -376,7 +395,7 @@
             </div>
 
             <!-- Arrow -->
-            <div class="flex-shrink-0 mt-[25px] text-[22px] font-bold text-gray-800 leading-none">&gt;</div>
+            <div class="flex-shrink-0 mt-[25px] max-lg:mt-0 max-lg:rotate-90 text-[22px] font-bold text-gray-800 leading-none">&gt;</div>
 
             <!-- Step 2 -->
             <div class="flex flex-col items-center text-center w-[112px]">
@@ -390,7 +409,7 @@
             </div>
 
             <!-- Arrow -->
-            <div class="flex-shrink-0 mt-[25px] text-[22px] font-bold text-gray-800 leading-none">&gt;</div>
+            <div class="flex-shrink-0 mt-[25px] max-lg:mt-0 max-lg:rotate-90 text-[22px] font-bold text-gray-800 leading-none">&gt;</div>
 
             <!-- Step 3 -->
             <div class="flex flex-col items-center text-center w-[112px]">
@@ -404,7 +423,7 @@
             </div>
 
             <!-- Arrow -->
-            <div class="flex-shrink-0 mt-[25px] text-[22px] font-bold text-gray-800 leading-none">&gt;</div>
+            <div class="flex-shrink-0 mt-[25px] max-lg:mt-0 max-lg:rotate-90 text-[22px] font-bold text-gray-800 leading-none">&gt;</div>
 
             <!-- Step 4 -->
             <div class="flex flex-col items-center text-center w-[112px]">
@@ -418,7 +437,7 @@
             </div>
 
             <!-- Arrow -->
-            <div class="flex-shrink-0 mt-[25px] text-[22px] font-bold text-gray-800 leading-none">&gt;</div>
+            <div class="flex-shrink-0 mt-[25px] max-lg:mt-0 max-lg:rotate-90 text-[22px] font-bold text-gray-800 leading-none">&gt;</div>
 
             <!-- Step 5 -->
             <div class="flex flex-col items-center text-center w-[112px]">
@@ -432,16 +451,21 @@
             </div>
 
           </div>
+          </div>
         </div>
 
         <!-- (6) -->
-        <div id="beispiele" class="px-10 py-8">
-          <div class="flex items-center gap-2.5 mb-4">
-            <span
-              class="w-6 h-6 rounded-full bg-brand text-white text-[12px] font-bold flex items-center justify-center shrink-0">6</span>
-            <h2 class="text-[14.5px] font-bold text-ink">Beispiele erfolgreicher Websites</h2>
+        <div id="beispiele" class="px-10 py-8 max-lg:p-0 max-lg:rounded-xl max-lg:border max-lg:border-gray-200">
+          <div class="acc-toggle flex items-center justify-between gap-3 mb-4 max-lg:mb-0 max-lg:px-4 max-lg:py-4 max-lg:cursor-pointer">
+            <div class="flex items-center gap-2.5">
+              <span
+                class="w-6 h-6 rounded-full bg-brand text-white text-[12px] font-bold flex items-center justify-center shrink-0">6</span>
+              <h2 class="text-[14.5px] font-bold text-ink">Beispiele erfolgreicher Websites</h2>
+            </div>
+            <i data-lucide="chevron-right" class="acc-icon w-4 h-4 text-gray-400 shrink-0 transition-transform duration-300 lg:hidden"></i>
           </div>
-          <div class="grid grid-cols-5 gap-3">
+          <div class="acc-body max-lg:hidden max-lg:px-4 max-lg:pb-4">
+          <div class="grid grid-cols-2 lg:grid-cols-5 gap-3">
             <a href="#" class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-md transition-shadow">
               <img src="https://picsum.photos/seed/dentist/400/240" alt="Zahnarztpraxis"
                 class="w-full h-[120px] object-cover">
@@ -484,20 +508,25 @@
               </div>
             </a>
           </div>
+          </div>
         </div>
       </div><!-- end LEFT col -->
 
       <!-- RIGHT: 7 + 8 stacked -->
-      <div class="divide-y divide-gray-100">
+      <div class="lg:divide-y divide-gray-100 max-lg:space-y-3">
 
         <!-- (7) -->
-        <div class="px-10 py-8">
-          <div class="flex items-center gap-2.5 mb-5">
-            <span
-              class="w-6 h-6 rounded-full bg-brand text-white text-[12px] font-bold flex items-center justify-center shrink-0">7</span>
-            <h2 class="text-[14.5px] font-bold text-ink">Warum Kunden sich für w-doo entscheiden</h2>
+        <div class="px-10 py-8 max-lg:p-0 max-lg:rounded-xl max-lg:border max-lg:border-gray-200">
+          <div class="acc-toggle flex items-center justify-between gap-3 mb-5 max-lg:mb-0 max-lg:px-4 max-lg:py-4 max-lg:cursor-pointer">
+            <div class="flex items-center gap-2.5">
+              <span
+                class="w-6 h-6 rounded-full bg-brand text-white text-[12px] font-bold flex items-center justify-center shrink-0">7</span>
+              <h2 class="text-[14.5px] font-bold text-ink">Warum Kunden sich für w-doo entscheiden</h2>
+            </div>
+            <i data-lucide="chevron-right" class="acc-icon w-4 h-4 text-gray-400 shrink-0 transition-transform duration-300 lg:hidden"></i>
           </div>
-          <div class="grid grid-cols-4 gap-5">
+          <div class="acc-body max-lg:hidden max-lg:px-4 max-lg:pb-4">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
 
             <!-- Testimonial 1 -->
             <div>
@@ -572,16 +601,21 @@
             </div>
 
           </div>
+          </div>
         </div>
 
         <!-- (8) -->
-        <div id="faq" class="px-10 py-8">
-          <div class="flex items-center gap-2.5 mb-5">
-            <span
-              class="w-6 h-6 rounded-full bg-brand text-white text-[12px] font-bold flex items-center justify-center shrink-0">8</span>
-            <h2 class="text-[14.5px] font-bold text-ink">Häufige Fragen</h2>
+        <div id="faq" class="px-10 py-8 max-lg:p-0 max-lg:rounded-xl max-lg:border max-lg:border-gray-200">
+          <div class="acc-toggle flex items-center justify-between gap-3 mb-5 max-lg:mb-0 max-lg:px-4 max-lg:py-4 max-lg:cursor-pointer">
+            <div class="flex items-center gap-2.5">
+              <span
+                class="w-6 h-6 rounded-full bg-brand text-white text-[12px] font-bold flex items-center justify-center shrink-0">8</span>
+              <h2 class="text-[14.5px] font-bold text-ink">Häufige Fragen</h2>
+            </div>
+            <i data-lucide="chevron-right" class="acc-icon w-4 h-4 text-gray-400 shrink-0 transition-transform duration-300 lg:hidden"></i>
           </div>
-          <div class="grid grid-cols-4 gap-3 items-start">
+          <div class="acc-body max-lg:hidden max-lg:px-4 max-lg:pb-4">
+          <div class="grid grid-cols-1 lg:grid-cols-4 gap-3 items-start">
             <div class="faq-item bg-gray-50 border border-gray-200 rounded-xl overflow-hidden">
               <button
                 class="faq-q w-full px-4 py-4 flex items-start justify-between gap-3 text-left text-[11.5px] font-semibold text-ink hover:bg-gray-100 transition-colors">
@@ -642,6 +676,7 @@
               </div>
             </div>
           </div>
+          </div>
         </div>
 
       </div><!-- end RIGHT col -->
@@ -650,23 +685,23 @@
   </div>
 
   <!-- KONTAKT — full-width dark -->
-  <section id="kontakt" class="bg-navy text-white px-12 py-12">
+  <section id="kontakt" class="bg-navy text-white px-5 py-10 lg:px-12 lg:py-12">
     <div class="grid lg:grid-cols-[0.9fr_1.4fr_0.8fr] gap-8">
-      <div>
-        <h2 class="text-[25px] font-extrabold leading-tight">Lassen Sie sich kostenlos<br>2 Designvorschläge
+      <div class="max-lg:text-center">
+        <h2 class="text-[22px] lg:text-[25px] font-extrabold leading-tight">Lassen Sie sich kostenlos<br>2 Designvorschläge
           erstellen</h2>
         <p class="mt-4 text-[12.5px] text-gray-300 leading-relaxed">Unverbindlich. Ohne automatischen
           Auftrag.<br>Klarer Festpreis ab 99 € / Monat.</p>
       </div>
-      <form class="grid grid-cols-3 gap-3"
+      <form class="grid grid-cols-2 lg:grid-cols-3 gap-3"
         onsubmit="event.preventDefault(); alert('Vielen Dank! Wir melden uns innerhalb von 24 Stunden.');">
         <input required type="text" placeholder="Name*"
           class="w-full rounded-lg bg-white text-ink placeholder-gray-400 text-[12.5px] px-4 py-3 outline-none focus:ring-2 focus:ring-brand">
         <input required type="email" placeholder="E-Mail*"
           class="w-full rounded-lg bg-white text-ink placeholder-gray-400 text-[12.5px] px-4 py-3 outline-none focus:ring-2 focus:ring-brand">
         <input type="tel" placeholder="Telefon"
-          class="w-full rounded-lg bg-white text-ink placeholder-gray-400 text-[12.5px] px-4 py-3 outline-none focus:ring-2 focus:ring-brand">
-        <div class="relative self-start">
+          class="max-lg:col-span-2 w-full rounded-lg bg-white text-ink placeholder-gray-400 text-[12.5px] px-4 py-3 outline-none focus:ring-2 focus:ring-brand">
+        <div class="relative self-start max-lg:col-span-2">
           <select required
             class="appearance-none w-full rounded-lg bg-white text-gray-500 text-[12.5px] px-4 py-3 outline-none focus:ring-2 focus:ring-brand pr-9">
             <option value="" selected disabled>Branche / Projekt*</option>
@@ -683,18 +718,24 @@
         <textarea placeholder="Nachricht" rows="3"
           class="col-span-2 w-full rounded-lg bg-white text-ink placeholder-gray-400 text-[12.5px] px-4 py-3 outline-none focus:ring-2 focus:ring-brand"></textarea>
         <button type="submit"
-          class="col-span-3 inline-flex items-center justify-center gap-2 bg-gradient-to-br from-brand-light via-brand to-brand-dark hover:opacity-90 text-white text-[13px] font-semibold rounded-lg px-6 py-3.5 shadow-btn transition-colors">
+          class="col-span-2 lg:col-span-3 inline-flex items-center justify-center gap-2 bg-gradient-to-br from-brand-light via-brand to-brand-dark hover:opacity-90 text-white text-[13px] font-semibold rounded-lg px-6 py-3.5 shadow-btn transition-colors">
           Jetzt kostenlose Vorschläge anfordern <i data-lucide="arrow-right" class="w-4 h-4"></i>
         </button>
+        <div class="col-span-2 lg:hidden mt-1 flex flex-col items-center gap-2.5 text-[13px] font-semibold">
+          <span class="flex items-center gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-brand"></i>Kostenlos
+            &amp; unverbindlich</span>
+          <span class="flex items-center gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-brand"></i>Kein
+            automatischer Auftrag</span>
+        </div>
       </form>
-      <div>
+      <div class="max-lg:text-center">
         <p class="text-[12.5px] font-semibold text-gray-300 mb-4">Oder direkt kontaktieren:</p>
         <ul class="space-y-3.5 text-[13px] font-medium">
-          <li><a href="tel:023199768100" class="flex items-center gap-3 hover:text-brand transition-colors"><i
+          <li><a href="tel:023199768100" class="flex items-center max-lg:justify-center gap-3 hover:text-brand transition-colors"><i
                 data-lucide="phone" class="w-[17px] h-[17px]"></i>0231 997 68 100</a></li>
-          <li><a href="#" class="flex items-center gap-3 hover:text-brand transition-colors"><i
+          <li><a href="#" class="flex items-center max-lg:justify-center gap-3 hover:text-brand transition-colors"><i
                 data-lucide="message-circle" class="w-[17px] h-[17px]"></i>WhatsApp schreiben</a></li>
-          <li><a href="mailto:hallo@w-doo.de" class="flex items-center gap-3 hover:text-brand transition-colors"><i
+          <li><a href="mailto:hallo@w-doo.de" class="flex items-center max-lg:justify-center gap-3 hover:text-brand transition-colors"><i
                 data-lucide="mail" class="w-[17px] h-[17px]"></i>hallo@w-doo.de</a></li>
         </ul>
       </div>
@@ -703,6 +744,41 @@
 
   <script>
     lucide.createIcons();
+
+    var menuBtn = document.getElementById('menu-btn');
+    var mobileMenu = document.getElementById('mobile-menu');
+    menuBtn.addEventListener('click', function () {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    function expandSection(section) {
+      var body = section.querySelector('.acc-body');
+      var icon = section.querySelector('.acc-icon');
+      if (body && body.classList.contains('max-lg:hidden')) {
+        body.classList.remove('max-lg:hidden');
+        if (icon) icon.style.transform = 'rotate(90deg)';
+      }
+    }
+
+    document.querySelectorAll('.acc-toggle').forEach(function (toggle) {
+      toggle.addEventListener('click', function () {
+        if (window.innerWidth >= 1024) return;
+        var body = toggle.parentElement.querySelector('.acc-body');
+        var icon = toggle.querySelector('.acc-icon');
+        if (!body) return;
+        var isOpen = !body.classList.contains('max-lg:hidden');
+        body.classList.toggle('max-lg:hidden');
+        if (icon) icon.style.transform = isOpen ? '' : 'rotate(90deg)';
+      });
+    });
+
+    document.querySelectorAll('a[href^="#"]').forEach(function (a) {
+      a.addEventListener('click', function () {
+        mobileMenu.classList.add('hidden');
+        var target = document.getElementById(a.getAttribute('href').slice(1));
+        if (target && window.innerWidth < 1024) expandSection(target);
+      });
+    });
 
     document.querySelectorAll('.faq-q').forEach(function (btn) {
       btn.addEventListener('click', function () {
