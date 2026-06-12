@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3200" height="1550" viewBox="0 0 3200 1550" fill="none">
+
+<defs>
+  <linearGradient id="orangeGrad" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFB36A"/>
+    <stop offset="0.45" stop-color="#FF6A00"/>
+    <stop offset="1" stop-color="#E85D00"/>
+  </linearGradient>
+  <linearGradient id="darkGrad" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#111827"/>
+    <stop offset="1" stop-color="#030712"/>
+  </linearGradient>
+  <linearGradient id="glassGrad" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0.92"/>
+    <stop offset="1" stop-color="#F8FAFC" stop-opacity="0.88"/>
+  </linearGradient>
+  <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#0B1220" flood-opacity="0.16"/>
+  </filter>
+  <filter id="orangeShadow" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#FF6A00" flood-opacity="0.30"/>
+  </filter>
+</defs>
+<rect width="3200" height="1550" fill="#fff"/><text x="1600" y="120" text-anchor="middle" font-family="Inter, Arial" font-size="78" font-weight="900" fill="#111827">Was Sie für 99 € / Monat alles bekommen</text><rect x="140" y="240" width="690" height="470" rx="36" fill="#fff" stroke="#E5E7EB" stroke-width="4" filter="url(#softShadow)"/><circle cx="485" cy="375" r="72" fill="#FFF7ED"/><g transform="translate(440,330) scale(1.4)" stroke="#FF6A00" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M32 8c-13.3 0-24 9.4-24 21 0 8.7 6 16 14.5 19.2 2 .8 3.8-.8 3.3-2.9-.7-2.6 1.2-5.2 3.9-5.2H35c11.6 0 21-7.2 21-16.1C56 14.7 45.3 8 32 8z"/><circle cx="20" cy="25" r="2.5"/><circle cx="29" cy="18" r="2.5"/><circle cx="39" cy="20" r="2.5"/><circle cx="45" cy="29" r="2.5"/></g><text x="485" y="500" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="36" font-weight="900" text-anchor="middle" opacity="1" >Individuelles Webdesign</text>
+<text x="485" y="558.0" fill="#6B7280" font-family="Inter, Arial, Helvetica, sans-serif" font-size="29" font-weight="500" text-anchor="middle" opacity="1" >Keine 08/15-Baukastenlösung.</text>
+<rect x="900" y="240" width="690" height="470" rx="36" fill="#fff" stroke="#E5E7EB" stroke-width="4" filter="url(#softShadow)"/><circle cx="1245" cy="375" r="72" fill="#FFF7ED"/><g transform="translate(1200,330) scale(1.4)" stroke="#FF6A00" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><rect x="10" y="12" width="44" height="40" rx="5"/><path d="M10 24h44M25 24v28"/></g><text x="1245" y="500" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="36" font-weight="900" text-anchor="middle" opacity="1" >2 kostenlose Designvorschläge</text>
+<text x="1245" y="558.0" fill="#6B7280" font-family="Inter, Arial, Helvetica, sans-serif" font-size="29" font-weight="500" text-anchor="middle" opacity="1" >Erst ansehen, dann</text>
+<text x="1245" y="592.8" fill="#6B7280" font-family="Inter, Arial, Helvetica, sans-serif" font-size="29" font-weight="500" text-anchor="middle" opacity="1" >entscheiden.</text>
+<rect x="1660" y="240" width="690" height="470" rx="36" fill="#fff" stroke="#E5E7EB" stroke-width="4" filter="url(#softShadow)"/><circle cx="2005" cy="375" r="72" fill="#FFF7ED"/><g transform="translate(1960,330) scale(1.4)" stroke="#FF6A00" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><rect x="20" y="16" width="28" height="36" rx="4"/><path d="M16 44H14a4 4 0 0 1-4-4V12a4 4 0 0 1 4-4h24a4 4 0 0 1 4 4v2"/><path d="M27 27h14M27 36h14"/></g><text x="2005" y="500" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="36" font-weight="900" text-anchor="middle" opacity="1" >Texte &amp; Bilder inklusive</text>
+<text x="2005" y="558.0" fill="#6B7280" font-family="Inter, Arial, Helvetica, sans-serif" font-size="29" font-weight="500" text-anchor="middle" opacity="1" >Wir erstellen überzeugende</text>
+<text x="2005" y="592.8" fill="#6B7280" font-family="Inter, Arial, Helvetica, sans-serif" font-size="29" font-weight="500" text-anchor="middle" opacity="1" >Inhalte.</text>
+<rect x="2420" y="240" width="690" height="470" rx="36" fill="#fff" stroke="#E5E7EB" stroke-width="4" filter="url(#softShadow)"/><circle cx="2765" cy="375" r="72" fill="#FFF7ED"/><g transform="translate(2720,330) scale(1.4)" stroke="#FF6A00" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 47H46a12 12 0 0 0 1.8-23.9A18 18 0 0 0 14.2 30 9 9 0 0 0 22 47z"/></g><text x="2765" y="500" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="36" font-weight="900" text-anchor="middle" opacity="1" >Hosting &amp; Technik</text>
+<text x="2765" y="558.0" fill="#6B7280" font-family="Inter, Arial, Helvetica, sans-serif" font-size="29" font-weight="500" text-anchor="middle" opacity="1" >SSL, Domain-Anbindung,</text>
+<text x="2765" y="592.8" fill="#6B7280" font-family="Inter, Arial, Helvetica, sans-serif" font-size="29" font-weight="500" text-anchor="middle" opacity="1" >schnelle Ladezeiten.</text>
+<rect x="140" y="820" width="690" height="470" rx="36" fill="#fff" stroke="#E5E7EB" stroke-width="4" filter="url(#softShadow)"/><circle cx="485" cy="955" r="72" fill="#FFF7ED"/><g transform="translate(440,910) scale(1.4)" stroke="#FF6A00" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M50 24A20 20 0 0 0 15 16l-5 6"/><path d="M10 12v10h10"/><path d="M14 40a20 20 0 0 0 35 8l5-6"/><path d="M54 52V42H44"/></g><text x="485" y="1080" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="36" font-weight="900" text-anchor="middle" opacity="1" >Wartung &amp; Updates</text>
+<text x="485" y="1138.0" fill="#6B7280" font-family="Inter, Arial, Helvetica, sans-serif" font-size="29" font-weight="500" text-anchor="middle" opacity="1" >Sicher, aktuell und betreut.</text>
+<rect x="900" y="820" width="690" height="470" rx="36" fill="#fff" stroke="#E5E7EB" stroke-width="4" filter="url(#softShadow)"/><circle cx="1245" cy="955" r="72" fill="#FFF7ED"/><g transform="translate(1200,910) scale(1.4)" stroke="#FF6A00" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 44l14-14 10 10 16-22"/><path d="M42 18h10v10"/><circle cx="17" cy="47" r="5"/></g><text x="1245" y="1080" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="36" font-weight="900" text-anchor="middle" opacity="1" >SEO-Basis</text>
+<text x="1245" y="1138.0" fill="#6B7280" font-family="Inter, Arial, Helvetica, sans-serif" font-size="29" font-weight="500" text-anchor="middle" opacity="1" >Für bessere Auffindbarkeit</text>
+<text x="1245" y="1172.8" fill="#6B7280" font-family="Inter, Arial, Helvetica, sans-serif" font-size="29" font-weight="500" text-anchor="middle" opacity="1" >bei Google.</text>
+<rect x="1660" y="820" width="690" height="470" rx="36" fill="#fff" stroke="#E5E7EB" stroke-width="4" filter="url(#softShadow)"/><circle cx="2005" cy="955" r="72" fill="#FFF7ED"/><g transform="translate(1960,910) scale(1.4)" stroke="#FF6A00" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="15" width="34" height="28" rx="4"/><rect x="45" y="25" width="11" height="24" rx="3"/><path d="M22 49h8"/></g><text x="2005" y="1080" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="36" font-weight="900" text-anchor="middle" opacity="1" >Responsive Design</text>
+<text x="2005" y="1138.0" fill="#6B7280" font-family="Inter, Arial, Helvetica, sans-serif" font-size="29" font-weight="500" text-anchor="middle" opacity="1" >Perfekt auf Handy, Tablet</text>
+<text x="2005" y="1172.8" fill="#6B7280" font-family="Inter, Arial, Helvetica, sans-serif" font-size="29" font-weight="500" text-anchor="middle" opacity="1" >und Desktop.</text>
+<rect x="2420" y="820" width="690" height="470" rx="36" fill="#fff" stroke="#E5E7EB" stroke-width="4" filter="url(#softShadow)"/><circle cx="2765" cy="955" r="72" fill="#FFF7ED"/><g transform="translate(2720,910) scale(1.4)" stroke="#FF6A00" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 34v-5a18 18 0 0 1 36 0v5"/><rect x="10" y="31" width="10" height="14" rx="3"/><rect x="44" y="31" width="10" height="14" rx="3"/><path d="M44 47c-2 5-6 8-13 8h-4"/></g><text x="2765" y="1080" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="36" font-weight="900" text-anchor="middle" opacity="1" >Support &amp; kleine Änderungen</text>
+<text x="2765" y="1138.0" fill="#6B7280" font-family="Inter, Arial, Helvetica, sans-serif" font-size="29" font-weight="500" text-anchor="middle" opacity="1" >Schnell, persönlich,</text>
+<text x="2765" y="1172.8" fill="#6B7280" font-family="Inter, Arial, Helvetica, sans-serif" font-size="29" font-weight="500" text-anchor="middle" opacity="1" >zuverlässig.</text>
+</svg>

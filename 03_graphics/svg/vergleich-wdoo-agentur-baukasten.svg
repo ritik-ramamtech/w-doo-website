@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="1700" viewBox="0 0 3000 1700" fill="none">
+
+<defs>
+  <linearGradient id="orangeGrad" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFB36A"/>
+    <stop offset="0.45" stop-color="#FF6A00"/>
+    <stop offset="1" stop-color="#E85D00"/>
+  </linearGradient>
+  <linearGradient id="darkGrad" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#111827"/>
+    <stop offset="1" stop-color="#030712"/>
+  </linearGradient>
+  <linearGradient id="glassGrad" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0.92"/>
+    <stop offset="1" stop-color="#F8FAFC" stop-opacity="0.88"/>
+  </linearGradient>
+  <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#0B1220" flood-opacity="0.16"/>
+  </filter>
+  <filter id="orangeShadow" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#FF6A00" flood-opacity="0.30"/>
+  </filter>
+</defs>
+
+<rect width="3000" height="1700" fill="#FFFFFF"/>
+<rect x="80" y="80" width="2840" height="1540" rx="50" fill="#fff" stroke="#E5E7EB"/>
+<text x="1500" y="185" text-anchor="middle" font-family="Inter, Arial" font-size="78" font-weight="900" fill="#111827">Darum sind 99 € / Monat so attraktiv</text>
+<rect x="180" y="280" width="2640" height="1180" rx="28" fill="#fff" stroke="#E5E7EB"/>
+<rect x="180" y="280" width="2640" height="120" rx="28" fill="#F8FAFC"/>
+<rect x="2060" y="280" width="760" height="1180" rx="28" fill="#FFF7ED" stroke="#FF6A00" stroke-width="5"/>
+<text x="240" y="360" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="38" font-weight="900" text-anchor="middle" opacity="1" >Kriterium</text>
+<text x="740" y="360" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="38" font-weight="900" text-anchor="middle" opacity="1" >Klassische Agentur</text>
+<text x="1480" y="360" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="38" font-weight="900" text-anchor="middle" opacity="1" >Baukasten</text>
+<text x="2320" y="360" fill="#FF6A00" font-family="Inter, Arial, Helvetica, sans-serif" font-size="38" font-weight="900" text-anchor="middle" opacity="1" >w-doo</text>
+<line x1="180" x2="2820" y1="415" y2="415" stroke="#E5E7EB"/><text x="250" y="470" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="32" font-weight="800" text-anchor="start" opacity="1" >Designqualität</text>
+<text x="740" y="452.0" fill="#1F2937" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="600" text-anchor="middle" opacity="1" >hochwertig, aber teuer</text>
+<text x="1480" y="452.0" fill="#1F2937" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="600" text-anchor="middle" opacity="1" >einfach &amp; Standard</text>
+<circle cx="2125" cy="460" r="22" fill="#16A34A"/><path d="M2114 458l8 8 16-18" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><text x="2380" y="446.0" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="800" text-anchor="start" opacity="1" >individuell, modern &amp;</text>
+<text x="2380" y="479.75" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="800" text-anchor="start" opacity="1" >professionell</text>
+<line x1="180" x2="2820" y1="535" y2="535" stroke="#E5E7EB"/><text x="250" y="590" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="32" font-weight="800" text-anchor="start" opacity="1" >Zeitaufwand für Kunden</text>
+<text x="740" y="572.0" fill="#1F2937" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="600" text-anchor="middle" opacity="1" >hoch – viele Absprachen</text>
+<text x="1480" y="572.0" fill="#1F2937" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="600" text-anchor="middle" opacity="1" >hoch – selbst bauen</text>
+<circle cx="2125" cy="580" r="22" fill="#16A34A"/><path d="M2114 578l8 8 16-18" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><text x="2380" y="566.0" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="800" text-anchor="start" opacity="1" >gering – wir übernehmen fast</text>
+<text x="2380" y="599.75" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="800" text-anchor="start" opacity="1" >alles</text>
+<line x1="180" x2="2820" y1="655" y2="655" stroke="#E5E7EB"/><text x="250" y="710" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="32" font-weight="800" text-anchor="start" opacity="1" >Texte &amp; Inhalte</text>
+<text x="740" y="692.0" fill="#1F2937" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="600" text-anchor="middle" opacity="1" >oft extra berechnet</text>
+<text x="1480" y="692.0" fill="#1F2937" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="600" text-anchor="middle" opacity="1" >selbst erstellen</text>
+<circle cx="2125" cy="700" r="22" fill="#16A34A"/><path d="M2114 698l8 8 16-18" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><text x="2380" y="686.0" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="800" text-anchor="start" opacity="1" >inklusive – wir erstellen</text>
+<text x="2380" y="719.75" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="800" text-anchor="start" opacity="1" >starke Inhalte</text>
+<line x1="180" x2="2820" y1="775" y2="775" stroke="#E5E7EB"/><text x="250" y="830" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="32" font-weight="800" text-anchor="start" opacity="1" >Hosting</text>
+<text x="740" y="812.0" fill="#1F2937" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="600" text-anchor="middle" opacity="1" >oft extra oder teuer</text>
+<text x="1480" y="812.0" fill="#1F2937" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="600" text-anchor="middle" opacity="1" >grundlegend</text>
+<circle cx="2125" cy="820" r="22" fill="#16A34A"/><path d="M2114 818l8 8 16-18" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><text x="2380" y="806.0" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="800" text-anchor="start" opacity="1" >inklusive – sicher &amp; schnell</text>
+<line x1="180" x2="2820" y1="895" y2="895" stroke="#E5E7EB"/><text x="250" y="950" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="32" font-weight="800" text-anchor="start" opacity="1" >Wartung</text>
+<text x="740" y="932.0" fill="#1F2937" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="600" text-anchor="middle" opacity="1" >oft extra oder teuer</text>
+<text x="1480" y="932.0" fill="#1F2937" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="600" text-anchor="middle" opacity="1" >liegt beim Kunden</text>
+<circle cx="2125" cy="940" r="22" fill="#16A34A"/><path d="M2114 938l8 8 16-18" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><text x="2380" y="926.0" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="800" text-anchor="start" opacity="1" >inklusive – Updates &amp;</text>
+<text x="2380" y="959.75" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="800" text-anchor="start" opacity="1" >Sicherheit</text>
+<line x1="180" x2="2820" y1="1015" y2="1015" stroke="#E5E7EB"/><text x="250" y="1070" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="32" font-weight="800" text-anchor="start" opacity="1" >Support</text>
+<text x="740" y="1052.0" fill="#1F2937" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="600" text-anchor="middle" opacity="1" >oft langsam oder teuer</text>
+<text x="1480" y="1052.0" fill="#1F2937" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="600" text-anchor="middle" opacity="1" >nur Community/Chat</text>
+<circle cx="2125" cy="1060" r="22" fill="#16A34A"/><path d="M2114 1058l8 8 16-18" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><text x="2380" y="1046.0" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="800" text-anchor="start" opacity="1" >persönlich, schnell &amp;</text>
+<text x="2380" y="1079.75" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="800" text-anchor="start" opacity="1" >zuverlässig</text>
+<line x1="180" x2="2820" y1="1135" y2="1135" stroke="#E5E7EB"/><text x="250" y="1190" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="32" font-weight="800" text-anchor="start" opacity="1" >Einmalkosten</text>
+<text x="740" y="1172.0" fill="#1F2937" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="600" text-anchor="middle" opacity="1" >2.500 – 6.000 €+</text>
+<text x="1480" y="1172.0" fill="#1F2937" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="600" text-anchor="middle" opacity="1" >0 – 200 € + Zeit</text>
+<circle cx="2125" cy="1180" r="22" fill="#16A34A"/><path d="M2114 1178l8 8 16-18" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><text x="2380" y="1166.0" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="800" text-anchor="start" opacity="1" >0 € – keine Einrichtungskosten</text>
+<line x1="180" x2="2820" y1="1255" y2="1255" stroke="#E5E7EB"/><text x="250" y="1310" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="32" font-weight="800" text-anchor="start" opacity="1" >Ergebnis</text>
+<text x="740" y="1292.0" fill="#1F2937" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="600" text-anchor="middle" opacity="1" >sehr gut, aber teuer</text>
+<text x="1480" y="1292.0" fill="#1F2937" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="600" text-anchor="middle" opacity="1" >einfach, aber oft</text>
+<text x="1480" y="1325.75" fill="#1F2937" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="600" text-anchor="middle" opacity="1" >unprofessionell</text>
+<circle cx="2125" cy="1300" r="22" fill="#16A34A"/><path d="M2114 1298l8 8 16-18" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><text x="2380" y="1286.0" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="800" text-anchor="start" opacity="1" >individuell, bezahlbar &amp;</text>
+<text x="2380" y="1319.75" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" font-weight="800" text-anchor="start" opacity="1" >betreut</text>
+<rect x="1120" y="1510" width="760" height="90" rx="24" fill="#0B1220"/><text x="1500" y="1568" font-family="Inter, Arial" font-size="36" font-weight="900" fill="#fff" text-anchor="middle">Bei uns: ab 99 € / Monat – alles drin!</text></svg>

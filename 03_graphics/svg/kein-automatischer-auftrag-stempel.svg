@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600" fill="none">
+<defs><filter id="s"><feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#FF6A00" flood-opacity="0.25"/></filter></defs>
+<rect width="1600" height="1600" fill="transparent"/>
+<g transform="translate(800 800) rotate(-10)" filter="url(#s)">
+<circle r="510" fill="#fff" stroke="#FF6A00" stroke-width="28"/>
+<circle r="440" fill="transparent" stroke="#FF6A00" stroke-width="12" stroke-dasharray="36 24"/>
+<text x="0" y="-100" font-family="Inter, Arial" font-size="150" font-weight="900" fill="#FF6A00" text-anchor="middle">KEIN</text>
+<text x="0" y="70" font-family="Inter, Arial" font-size="115" font-weight="900" fill="#FF6A00" text-anchor="middle">AUTOMATISCHER</text>
+<text x="0" y="230" font-family="Inter, Arial" font-size="145" font-weight="900" fill="#FF6A00" text-anchor="middle">AUFTRAG</text>
+<text x="0" y="370" font-family="Inter, Arial" font-size="72" font-weight="800" fill="#FF6A00" text-anchor="middle">kostenlos · unverbindlich</text>
+</g>
+</svg>

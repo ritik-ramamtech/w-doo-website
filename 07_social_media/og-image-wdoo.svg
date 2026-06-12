@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1260" viewBox="0 0 2400 1260" fill="none">
+
+<defs>
+<linearGradient id="orangeGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFB36A"/><stop offset=".48" stop-color="#FF6A00"/><stop offset="1" stop-color="#E85D00"/></linearGradient>
+<linearGradient id="glassGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#F8FAFC"/></linearGradient>
+<filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="28" stdDeviation="26" flood-color="#0B1220" flood-opacity=".18"/></filter>
+<filter id="orangeShadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#FF6A00" flood-opacity=".32"/></filter>
+</defs>
+<rect width="2400" height="1260" fill="#FFFFFF"/>
+<rect x="80" y="80" width="2240" height="1100" rx="56" fill="#fff" stroke="#E5E7EB"/>
+<text x="160" y="250" font-family="Inter, Arial" font-size="54" font-weight="900" fill="#FF6A00">Websites im Abo. Ohne Startkosten. Ohne Risiko.</text>
+<text x="160" y="410" font-family="Inter, Arial" font-size="112" font-weight="900" fill="#111827">Warum 99 € / Monat</text>
+<text x="160" y="545" font-family="Inter, Arial" font-size="112" font-weight="900" fill="#111827">ein echter Schnapper sind.</text>
+<text x="160" y="650" font-family="Inter, Arial" font-size="42" font-weight="600" fill="#1F2937">2 kostenlose Designvorschläge.</text>
+<text x="160" y="710" font-family="Inter, Arial" font-size="42" font-weight="600" fill="#1F2937">Kein automatischer Auftrag.</text>
+<rect x="160" y="830" width="650" height="112" rx="22" fill="url(#orangeGrad)"/>
+<text x="485" y="900" font-family="Inter, Arial" font-size="36" font-weight="900" fill="#fff" text-anchor="middle">Kostenlos anfordern</text>
+<g transform="translate(1030,175) scale(.5)">
+<defs>
+<linearGradient id="orangeGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFB36A"/><stop offset=".48" stop-color="#FF6A00"/><stop offset="1" stop-color="#E85D00"/></linearGradient>
+<linearGradient id="glassGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#F8FAFC"/></linearGradient>
+<filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="28" stdDeviation="26" flood-color="#0B1220" flood-opacity=".18"/></filter>
+<filter id="orangeShadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#FF6A00" flood-opacity=".32"/></filter>
+</defs>
+<rect width="2400" height="1600" fill="#FFFFFF"/>
+<rect x="80" y="80" width="2240" height="1440" rx="72" fill="url(#glassGrad)" stroke="#E5E7EB"/>
+<rect x="815" y="90" width="770" height="76" rx="22" fill="#FEF3C7"/>
+<text x="1200" y="140" font-family="Inter, Arial" font-size="32" font-weight="900" fill="#854D0E" text-anchor="middle">Kostenlose Entwürfe – Sie entscheiden danach.</text>
+<g transform="translate(390,280)" filter="url(#softShadow)">
+  <rect x="0" y="0" width="1420" height="870" rx="55" fill="#1D2430"/>
+  <rect x="55" y="55" width="1310" height="750" rx="28" fill="#fff"/>
+  <rect x="55" y="55" width="1310" height="120" rx="28" fill="#F8FAFC"/>
+  <text x="110" y="130" font-family="Inter, Arial" font-size="48" font-weight="900" fill="#111827">w-doo</text>
+  <rect x="995" y="88" width="260" height="46" rx="23" fill="#FF6A00"/>
+  <text x="1125" y="119" font-family="Inter, Arial" font-size="20" font-weight="900" fill="#fff" text-anchor="middle">Kontakt aufnehmen</text>
+  <rect x="55" y="175" width="1310" height="630" fill="#0F172A"/>
+  <rect x="55" y="175" width="750" height="630" fill="#0B1220"/>
+  <rect x="805" y="175" width="560" height="630" fill="#F2D6C2"/>
+  <text x="120" y="340" font-family="Inter, Arial" font-size="78" font-weight="900" fill="#fff">Qualität, die</text>
+  <text x="120" y="430" font-family="Inter, Arial" font-size="78" font-weight="900" fill="#fff">Vertrauen schafft.</text>
+  <text x="120" y="515" font-family="Inter, Arial" font-size="32" font-weight="500" fill="#CBD5E1">Ihre Website – modern, schnell</text>
+  <text x="120" y="560" font-family="Inter, Arial" font-size="32" font-weight="500" fill="#CBD5E1">und klar auf Anfragen ausgerichtet.</text>
+  <rect x="120" y="640" width="280" height="70" rx="15" fill="#FF6A00"/>
+  <text x="260" y="685" font-family="Inter, Arial" font-size="24" font-weight="900" fill="#fff" text-anchor="middle">Jetzt starten</text>
+  <rect x="930" y="245" width="300" height="170" rx="20" fill="#fff" opacity=".9"/>
+  <rect x="930" y="460" width="300" height="220" rx="20" fill="#fff" opacity=".86"/>
+</g>
+<rect x="390" y="1170" width="1420" height="58" rx="29" fill="#0B1220" opacity=".25"/>
+<path d="M560 1238h1080l150 92H410z" fill="#111827"/>
+<rect x="425" y="1320" width="1310" height="50" rx="25" fill="#0B1220"/>
+<g transform="translate(1600,520)" filter="url(#softShadow)">
+  <rect x="0" y="0" width="500" height="920" rx="70" fill="#111827"/>
+  <rect x="27" y="30" width="446" height="860" rx="54" fill="#fff"/>
+  <text x="66" y="120" font-family="Inter, Arial" font-size="32" font-weight="900" fill="#111827">w-doo</text>
+  <rect x="66" y="170" width="342" height="270" rx="26" fill="#F3F4F6"/>
+  <text x="92" y="245" font-family="Inter, Arial" font-size="40" font-weight="900" fill="#111827">Für mehr</text>
+  <text x="92" y="295" font-family="Inter, Arial" font-size="40" font-weight="900" fill="#111827">Anfragen.</text>
+  <rect x="92" y="350" width="220" height="54" rx="13" fill="#FF6A00"/>
+  <text x="202" y="385" font-family="Inter, Arial" font-size="18" font-weight="900" fill="#fff" text-anchor="middle">Jetzt anfragen</text>
+  <rect x="66" y="490" width="342" height="90" rx="18" fill="#FFF7ED"/>
+  <rect x="66" y="620" width="342" height="90" rx="18" fill="#FFF7ED"/>
+  <rect x="66" y="750" width="342" height="90" rx="18" fill="#FFF7ED"/>
+</g>
+<g transform="translate(1710,310)">
+  <circle cx="190" cy="190" r="180" fill="url(#orangeGrad)" filter="url(#orangeShadow)"/>
+  <text x="190" y="126" font-family="Inter, Arial" font-size="40" font-weight="900" fill="#fff" text-anchor="middle">ab</text>
+  <text x="190" y="225" font-family="Inter, Arial" font-size="116" font-weight="900" fill="#fff" text-anchor="middle">99 €</text>
+  <text x="190" y="288" font-family="Inter, Arial" font-size="38" font-weight="900" fill="#fff" text-anchor="middle">/ Monat</text>
+</g>
+<rect x="520" y="190" width="370" height="78" rx="19" fill="#2563EB"/>
+<text x="705" y="240" font-family="Inter, Arial" font-size="32" font-weight="900" fill="#fff" text-anchor="middle">Designvorschlag A</text>
+<path d="M735 268c20 75 55 115 125 130" stroke="#2563EB" stroke-width="8" fill="none"/>
+<rect x="1515" y="205" width="370" height="78" rx="19" fill="#059669"/>
+<text x="1700" y="255" font-family="Inter, Arial" font-size="32" font-weight="900" fill="#fff" text-anchor="middle">Designvorschlag B</text>
+<g transform="translate(330,1410)">
+<rect x="0" y="0" width="405" height="90" rx="24" fill="#fff" stroke="#E5E7EB"/><g transform="translate(28,20) scale(.78)" stroke="#FF6A00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><rect x="10" y="12" width="44" height="40" rx="5"/><path d="M10 24h44M25 24v28"/></g><text x="92" y="55" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="900" text-anchor="start">2 Designvorschläge inklusive</text>
+<rect x="465" y="0" width="405" height="90" rx="24" fill="#fff" stroke="#E5E7EB"/><g transform="translate(493,20) scale(.78)" stroke="#FF6A00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="32" r="24"/><path d="M20 33.5l7.5 7.5L45 23"/></g><text x="557" y="55" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="900" text-anchor="start">100 % unverbindlich</text>
+<rect x="930" y="0" width="405" height="90" rx="24" fill="#fff" stroke="#E5E7EB"/><g transform="translate(958,20) scale(.78)" stroke="#FF6A00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M32 7l20 8v14c0 14-8.6 22.4-20 28C20.6 51.4 12 43 12 29V15z"/><path d="M22 32l7 7 14-16"/></g><text x="1022" y="55" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="900" text-anchor="start">Kein automatischer Auftrag</text>
+<rect x="1395" y="0" width="405" height="90" rx="24" fill="#fff" stroke="#E5E7EB"/><g transform="translate(1423,20) scale(.78)" stroke="#FF6A00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M32 8l6.9 14 15.5 2.3-11.2 10.9 2.6 15.4L32 43.3 18.2 50.6l2.6-15.4L9.6 24.3 25.1 22z"/></g><text x="1487" y="55" fill="#111827" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="900" text-anchor="start">ab 99 € / Monat</text>
+</g></g>
+</svg>

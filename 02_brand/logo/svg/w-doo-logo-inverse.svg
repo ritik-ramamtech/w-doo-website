@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420" fill="none">
+<defs>
+<linearGradient id="g" x1="60" y1="70" x2="345" y2="335" gradientUnits="userSpaceOnUse">
+  <stop stop-color="#FFB36A"/><stop offset="0.45" stop-color="#FF6A00"/><stop offset="1" stop-color="#E85D00"/>
+</linearGradient>
+<filter id="shadow" x="0" y="0" width="1600" height="420"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0B1220" flood-opacity="0.18"/></filter>
+</defs>
+<rect width="1600" height="420" fill="#0B1220"/>
+<g filter="url(#shadow)">
+  <path d="M82 116c0-25 20-45 45-45h46l28 137 47-137h47l47 137 28-137h46c25 0 45 20 45 45v187c0 25-20 45-45 45H82V116z" fill="url(#g)"/>
+  <path d="M120 114h44l32 149 51-149h40l51 149 32-149h44l-54 228h-47l-46-134-46 134h-47L120 114z" fill="white"/>
+</g>
+<text x="515" y="207" font-family="Inter, Arial, Helvetica, sans-serif" font-size="138" font-weight="800" letter-spacing="-6" fill="#FFFFFF">w</text>
+<text x="628" y="207" font-family="Inter, Arial, Helvetica, sans-serif" font-size="138" font-weight="800" letter-spacing="-8" fill="#FF6A00">-</text>
+<text x="704" y="207" font-family="Inter, Arial, Helvetica, sans-serif" font-size="138" font-weight="800" letter-spacing="-8" fill="#FFFFFF">doo</text>
+<circle cx="1042" cy="167" r="15" fill="#FF6A00"/>
+<text x="518" y="289" font-family="Inter, Arial, Helvetica, sans-serif" font-size="34" font-weight="700" letter-spacing="6" fill="#E5E7EB">WEBSITES, DIE ANFRAGEN BRINGEN.</text>
+</svg>
