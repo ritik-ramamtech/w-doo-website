@@ -49,7 +49,7 @@
 <body class="bg-[#E9EAED] text-ink">
 
   <!-- NAVBAR — full-width -->
-  <header class="bg-white border-b border-gray-100 px-10 py-4 flex items-center justify-between gap-4">
+  <header class="bg-white border-b border-gray-100 px-5 lg:px-10 py-4 flex items-center justify-between gap-4">
     <a href="#"><img src="02_brand/logo/svg/w-doo-logo-primary.svg" alt="w-doo" class="h-8"></a>
     <nav class="hidden md:flex items-center gap-7 text-[13px] font-medium text-gray-700">
       <a href="#leistungen" class="hover:text-ink">Leistungen</a>
@@ -59,16 +59,40 @@
       <a href="#faq" class="hover:text-ink">FAQ</a>
       <a href="#kontakt" class="hover:text-ink">Über uns</a>
     </nav>
-    <div class="flex items-center gap-4">
-      <a href="tel:023199768100" class="flex items-center gap-2 text-[13.5px] font-bold text-ink whitespace-nowrap">
+    <div class="flex items-center gap-3 md:gap-4">
+      <a href="tel:023199768100"
+        class="hidden md:flex items-center gap-2 text-[13.5px] font-bold text-ink whitespace-nowrap">
         <i data-lucide="phone" class="w-4 h-4"></i>0231 997 68 100
       </a>
       <a href="#kontakt"
-        class="bg-gradient-to-br from-brand-light via-brand to-brand-dark hover:opacity-90 text-white text-[12.5px] font-semibold rounded-lg px-4 py-2.5 whitespace-nowrap transition-colors">
+        class="hidden md:inline-flex bg-gradient-to-br from-brand-light via-brand to-brand-dark hover:opacity-90 text-white text-[12.5px] font-semibold rounded-lg px-4 py-2.5 whitespace-nowrap transition-colors">
         Kostenlose Designvorschläge anfordern
+      </a>
+      <button id="menu-btn" type="button" class="md:hidden p-1 text-ink" aria-label="Menü öffnen">
+        <i data-lucide="menu" class="w-6 h-6"></i>
+      </button>
+      <a href="tel:023199768100" aria-label="Anrufen"
+        class="md:hidden w-9 h-9 rounded-full bg-gradient-to-br from-brand-light via-brand to-brand-dark text-white flex items-center justify-center shrink-0">
+        <i data-lucide="phone" class="w-4 h-4"></i>
       </a>
     </div>
   </header>
+
+  <!-- MOBILE MENU -->
+  <div id="mobile-menu" class="hidden md:!hidden bg-white border-b border-gray-100 px-5 py-4">
+    <nav class="flex flex-col gap-3 text-[14px] font-medium text-gray-700">
+      <a href="#leistungen" class="hover:text-ink">Leistungen</a>
+      <a href="#beispiele" class="hover:text-ink">Beispiele</a>
+      <a href="#preise" class="hover:text-ink">Preise</a>
+      <a href="#ablauf" class="hover:text-ink">Ablauf</a>
+      <a href="#faq" class="hover:text-ink">FAQ</a>
+      <a href="#kontakt" class="hover:text-ink">Über uns</a>
+      <a href="#kontakt"
+        class="mt-2 bg-gradient-to-br from-brand-light via-brand to-brand-dark text-white text-[13px] font-semibold rounded-lg px-4 py-3 text-center">
+        Kostenlose Designvorschläge anfordern
+      </a>
+    </nav>
+  </div>
 
   <!-- HERO — full-width white -->
 
